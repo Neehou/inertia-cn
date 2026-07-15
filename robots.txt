@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://inertia-cn.pages.dev/sitemap.xml
