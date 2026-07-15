@@ -547,6 +547,13 @@ img {
   pointer-events: none;
 }
 
+/* 内页不同背景 */
+.hero--about::before { background-image: url('../img/hero-about.jpg'); background-position: center 40%; }
+.hero--business::before { background-image: url('../img/hero-business.jpg'); background-position: center 35%; }
+.hero--cases::before { background-image: url('../img/hero-cases.jpg'); background-position: center 30%; }
+.hero--contact::before { background-image: url('../img/hero-contact.jpg'); background-position: center 50%; }
+.hero--news::before { background-image: url('../img/hero-about.jpg'); background-position: center 40%; }
+
 /* 文字可读性 — 底部渐变叠加 */
 .hero::after {
   content: '';
