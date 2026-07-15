@@ -2,24 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- 中文页面 -->
-  <url>
-    <loc>https://inertia-cn.pages.dev/zh/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/index.html"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://inertia-cn.pages.dev/zh/index.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/index.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/index.html"/><lastmod>2026-07-15</lastmod><priority>1.0</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/index.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/index.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/index.html"/><lastmod>2026-07-15</lastmod><priority>1.0</priority></url>
 
-  <!-- 英文页面 -->
-  <url>
-    <loc>https://inertia-cn.pages.dev/en/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/index.html"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://inertia-cn.pages.dev/zh/about.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/about.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/about.html"/><lastmod>2026-07-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/about.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/about.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/about.html"/><lastmod>2026-07-15</lastmod><priority>0.9</priority></url>
 
+  <url><loc>https://inertia-cn.pages.dev/zh/business.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/business.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/business.html"/><lastmod>2026-07-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/business.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/business.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/business.html"/><lastmod>2026-07-15</lastmod><priority>0.9</priority></url>
+
+  <url><loc>https://inertia-cn.pages.dev/zh/cases.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/cases.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/cases.html"/><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/cases.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/cases.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/cases.html"/><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
+
+  <url><loc>https://inertia-cn.pages.dev/zh/contact.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/contact.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/contact.html"/><lastmod>2026-07-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/contact.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/contact.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/contact.html"/><lastmod>2026-07-15</lastmod><priority>0.7</priority></url>
+
+  <url><loc>https://inertia-cn.pages.dev/zh/news.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/news.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/news.html"/><lastmod>2026-07-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://inertia-cn.pages.dev/en/news.html</loc><xhtml:link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/news.html"/><xhtml:link rel="alternate" hreflang="en" href="https://inertia-cn.pages.dev/en/news.html"/><lastmod>2026-07-15</lastmod><priority>0.6</priority></url>
 </urlset>
