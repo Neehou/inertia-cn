@@ -359,7 +359,7 @@ img {
   display: none;
 }
 
-/* 下拉指示点 */
+/* 下拉指示 */
 .nav-dropdown > a {
   display: inline-flex;
   align-items: center;
@@ -367,17 +367,15 @@ img {
 }
 
 .nav-dropdown > a::after {
-  content: '';
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--color-gold);
+  content: '▾';
+  font-size: 0.6em;
+  color: inherit;
   flex-shrink: 0;
+  transition: transform var(--duration-fast) var(--ease-out);
 }
 
 .nav-dropdown:hover > a::after {
-  display: none;
+  transform: rotate(180deg);
 }
 
 /* 语言切换 */
@@ -1512,7 +1510,7 @@ img {
     font-size: var(--text-small);
   }
 
-  .nav-dropdown > a::after { display: none; }
+  .nav-dropdown > a::after { content: none; }
 
   .nav-toggle {
     display: flex;
