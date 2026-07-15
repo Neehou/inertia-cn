@@ -523,7 +523,6 @@ img {
   align-items: center;
   height: calc(100vh - var(--nav-height));
   padding-top: var(--nav-height);
-  padding-top: 0;
   background: var(--color-navy);
   overflow: hidden;
 }
