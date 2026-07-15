@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+*.bak
+*.log
+node_modules/
+
+# Desktop cruft
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+5.jpg
+6.jpg
+7.jpg
+1.png
+2.png
+ScreenShot_*.png
+logo.png
+提示词.txt
+案例.txt
+
+# Dev tools
+crawl.sh
+crawl_all.py
+process_all.py
+
+# Old scraped content (keep reference but not in repo)
+pages/
+content/
+SCRAPE_REPORT.md

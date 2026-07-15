@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inertia 广州易纳 — 产品设计、工程开发与制造服务</title>
+  <meta name="description" content="广州易纳（Inertia）是加拿大 Inertia PD 的中国子公司，提供从概念到量产的全流程产品开发与制造服务，专注医疗器械、智能硬件领域，持有 ISO 13485 认证。">
+  <meta name="robots" content="index, follow">
+  <link rel="alternate" hreflang="en" href="../en/index.html">
+  <link rel="alternate" hreflang="zh-CN" href="index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Inertia 广州易纳 — 产品设计、工程开发与制造服务">
+  <meta property="og:description" content="从概念到量产，跨太平洋一站式产品化引擎。ISO 13485 认证，服务医疗器械与智能硬件领域。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- JSON-LD 结构化数据 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "广州易纳",
+    "alternateName": "Inertia Guangzhou",
+    "url": "https://inertiapd.cn",
+    "logo": "../img/logo.svg",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Inertia Product Development",
+      "url": "https://www.inertiapd.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "Ontario",
+        "addressCountry": "CA"
+      }
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "广州",
+      "addressRegion": "广东",
+      "addressCountry": "CN"
+    },
+    "certifications": [
+      { "@type": "Certification", "name": "ISO 13485:2016" },
+      { "@type": "Certification", "name": "ISO 9001" }
+    ],
+    "knowsAbout": [
+      "Medical Device Manufacturing",
+      "Product Development",
+      "Design for Manufacturing",
+      "Supply Chain Management"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Outfit:wght@400;500;600;700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Favicon (复用母公司) -->
+  <link rel="icon" href="../img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- ================================================================
+       导航栏 Header
+       ================================================================ -->
+  <header class="site-header" role="banner">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Inertia 首页">
+        <img src="../img/logo.svg" alt="Inertia" width="180" height="47">
+      </a>
+
+      <!-- 导航链接 -->
+      <nav class="site-navigation" role="navigation" aria-label="主导航">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">首页</a></li>
+
+          <!-- 关于我们 — 下拉 -->
+          <li class="nav-dropdown">
+            <a href="about.html">关于我们</a>
+            <div class="nav-dropdown-menu">
+              <a href="about.html">公司简介</a>
+              <a href="about.html#dual-shore">中加双岸模式</a>
+              <a href="about.html#certifications">资质认证</a>
+            </div>
+          </li>
+
+          <!-- 我们的业务 — 下拉 -->
+          <li class="nav-dropdown">
+            <a href="business.html">我们的业务</a>
+            <div class="nav-dropdown-menu">
+              <a href="business.html#medical">医疗器械制造</a>
+              <a href="business.html#transfer">产品化转移</a>
+              <a href="business.html#global">中国企业出海</a>
+              <a href="business.html#supply">北美供应链对接</a>
+            </div>
+          </li>
+
+          <li><a href="cases.html">项目案例</a></li>
+          <li><a href="news.html">动态</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+
+        <span class="nav-divider"></span>
+
+        <!-- 电话 -->
+        <div class="nav-phone">
+          <span class="nav-phone__icon"></span>
+          <div class="nav-phone__text">
+            <span class="nav-phone__label">Talk To A Specialist</span>
+            <span class="nav-phone__number">020-8482 0087</span>
+          </div>
+        </div>
+
+        <!-- 语言切换 -->
+        <div class="nav-lang">
+          <a href="../en/index.html" data-lang-switch="en">EN</a>
+        </div>
+      </nav>
+
+      <!-- 汉堡菜单按钮 -->
+      <button class="nav-toggle" aria-label="菜单" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================================================================
+       主体 Main
+       ================================================================ -->
+  <main>
+
+    <!-- Hero 全屏品牌区 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- 工程蓝图线稿 -->
+      <div class="hero__blueprint" aria-hidden="true">
+        <svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg">
+          <!-- 大圆 — 像是产品轮廓 -->
+          <circle cx="1150" cy="200" r="280" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="4 6" opacity="0.5"/>
+          <circle cx="1150" cy="200" r="200" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3"/>
+          <!-- 十字准线 -->
+          <line x1="870" y1="200" x2="1430" y2="200" stroke="#ffffff" stroke-width="0.4" opacity="0.3"/>
+          <line x1="1150" y1="-80" x2="1150" y2="480" stroke="#ffffff" stroke-width="0.4" opacity="0.3"/>
+          <!-- 小测量标记 -->
+          <line x1="1130" y1="195" x2="1130" y2="205" stroke="#ffffff" stroke-width="0.5" opacity="0.4"/>
+          <line x1="1170" y1="195" x2="1170" y2="205" stroke="#ffffff" stroke-width="0.5" opacity="0.4"/>
+          <!-- 左下角几何线 -->
+          <rect x="60" y="520" width="180" height="120" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.25"/>
+          <line x1="60" y1="550" x2="240" y2="550" stroke="#ffffff" stroke-width="0.3" opacity="0.2"/>
+          <line x1="60" y1="580" x2="240" y2="580" stroke="#ffffff" stroke-width="0.3" opacity="0.2"/>
+          <line x1="60" y1="610" x2="240" y2="610" stroke="#ffffff" stroke-width="0.3" opacity="0.2"/>
+          <!-- 尺寸标注斜线 -->
+          <line x1="30" y1="520" x2="60" y2="520" stroke="#ffffff" stroke-width="0.4" opacity="0.3"/>
+          <line x1="30" y1="640" x2="60" y2="640" stroke="#ffffff" stroke-width="0.4" opacity="0.3"/>
+          <line x1="45" y1="515" x2="45" y2="645" stroke="#ffffff" stroke-width="0.4" opacity="0.3"/>
+          <!-- 右侧角度弧线 -->
+          <path d="M 1300 700 L 1300 650 A 50 50 0 0 1 1350 700" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.3"/>
+          <!-- 底部水平参考线 -->
+          <line x1="200" y1="760" x2="900" y2="760" stroke="#ffffff" stroke-width="0.4" opacity="0.2"/>
+          <line x1="200" y1="780" x2="900" y2="780" stroke="#ffffff" stroke-width="0.3" opacity="0.15" stroke-dasharray="8 4"/>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="hero__content reveal reveal--d1">
+          <span class="hero__tagline">ISO 13485:2016 + ISO 9001 双认证</span>
+          <h1 id="hero-title" class="hero__title">
+            <span class="hero__title-white">我们设计、制造和交付</span>
+            <strong>经得起真实世界考验的复杂硬件</strong>
+          </h1>
+          <p class="hero__subtitle">
+            我们帮助团队将关键决策一路贯彻到底——让想法成为可验证、可量产、可规模化信赖的产品，通过严谨的硬件产品开发流程。
+          </p>
+          <div class="hero__actions">
+            <a href="contact.html" class="btn btn--primary">咨询我们的能力</a>
+            <a href="cases.html" class="btn btn--outline">查看项目案例</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 三段式核心能力 -->
+    <section class="section pillars" aria-labelledby="pillars-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2 id="pillars-title" class="pillars__title">
+            <span class="pillars__title-blue">一体化</span>
+            <span class="pillars__title-gold">产品上市系统</span>
+          </h2>
+          <p class="pillars__subtitle">从第一个概念到第一批出货，再到规模化——没有重置、返工或交接混乱。</p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card pillar-card--innovation reveal reveal--d1">
+            <h3 class="pillar-card__title">产品创新 <small>Product Innovation</small></h3>
+            <p class="pillar-card__desc">在产品架构、成本和承诺锁定之前，将不确定性转化为清晰、可行的产品定义。</p>
+            <a href="business.html#innovation" class="pillar-card__btn">了解产品创新</a>
+          </article>
+
+          <article class="pillar-card pillar-card--development reveal reveal--d2">
+            <h3 class="pillar-card__title">产品开发 <small>Product Development</small></h3>
+            <p class="pillar-card__desc">将产品工程化为一个连贯的系统——稳定、可验证、准备好转移。</p>
+            <a href="business.html#development" class="pillar-card__btn">了解产品开发</a>
+          </article>
+
+          <article class="pillar-card pillar-card--manufacturing reveal reveal--d3">
+            <h3 class="pillar-card__title">产品制造 <small>Product Manufacturing</small></h3>
+            <p class="pillar-card__desc">通过试产稳定设计和工艺——让生产规模化，没有意外。</p>
+            <a href="business.html#manufacturing" class="pillar-card__btn">了解产品制造</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 信任背书 -->
+    <section class="section trust-section" aria-label="资质与信任">
+      <hr class="trust-divider">
+      <div class="container">
+        <h2 class="trust-title reveal">受复杂硬件团队信赖</h2>
+        <div class="trust-grid reveal">
+          <div class="trust-item">
+            <span class="trust-item__icon trust-item__icon--badge"></span>
+            <p class="trust-item__head">ISO 13485 Certified</p>
+            <p class="trust-item__desc">医疗器械质量管理体系<br>设计与制造</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-item__icon trust-item__icon--badge"></span>
+            <p class="trust-item__head">ISO 9001 Certified</p>
+            <p class="trust-item__desc">质量管理体系<br>运营卓越</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-item__icon trust-item__icon--check"></span>
+            <p class="trust-item__head">FDA Registered Manufacturer</p>
+            <p class="trust-item__desc">受监管医疗器械<br>设计与制造合规</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-item__icon trust-item__icon--pin"></span>
+            <p class="trust-item__head">Since 2004</p>
+            <p class="trust-item__desc">始于多伦多<br>广州 · 中国</p>
+          </div>
+        </div>
+        <p class="trust-tagline reveal">您的一体化创新、设计与制造合作伙伴</p>
+      </div>
+      <hr class="trust-divider">
+    </section>
+
+    <!-- 案例展示 -->
+    <section class="section section--gray" id="cases" aria-labelledby="cases-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">项目案例</span>
+          <h2 id="cases-title" class="section__title"><span style="color:var(--color-gold)">我们的</span> <span style="color:var(--color-navy)">产品</span></h2>
+          <p class="section__subtitle">二十余年来，我们的产品组合横跨受监管医疗器械、机器人、工业系统和复杂机电产品——覆盖从概念开发到规模化量产的全流程。</p>
+        </div>
+
+        <div class="cases-wrapper">
+          <button class="cases-arrow cases-arrow--left" type="button">&#8249;</button>
+          <div class="cases-grid">
+          <article class="case-card reveal reveal--d1">
+            <img class="case-card__image" src="../img/case-1.jpg" alt="呼吸机氧气附件" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">医疗器械</span>
+              <h3 class="case-card__title">呼吸机氧气附件</h3>
+              <p class="case-card__desc">Baylis 100%氧气附件，为 V4C-560 呼吸机扩展氧气输送能力，支持严重呼吸病例治疗。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d2">
+            <img class="case-card__image" src="../img/case-2.jpg" alt="移动医疗工作站" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">医疗器械</span>
+              <h3 class="case-card__title">移动医疗工作站</h3>
+              <p class="case-card__desc">Amico Hummingbird 电动升降移动工作站，为临床医护人员提供床旁计算与给药平台。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d3">
+            <img class="case-card__image" src="../img/case-3.jpg" alt="床旁血液分析仪" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">诊断设备</span>
+              <h3 class="case-card__title">床旁血液分析仪</h3>
+              <p class="case-card__desc">Verv 卡盒式即时诊断平台，单滴血即可完成多项目生物标志物分析。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d4">
+            <img class="case-card__image" src="../img/case-4.jpg" alt="行动辅助设备" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">医疗辅助</span>
+              <h3 class="case-card__title">Nuvio One 行动辅助设备</h3>
+              <p class="case-card__desc">帮助行动不便者行走、起身和移动，提供更佳支撑与控制。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d5">
+            <img class="case-card__image" src="../img/case-5.jpg" alt="自主除草机器人" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">农业科技</span>
+              <h3 class="case-card__title">自主除草机器人</h3>
+              <p class="case-card__desc">Nexus Robotics AI驱动农业平台，机器视觉+混合动力，精准选择性除草。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d6">
+            <img class="case-card__image" src="../img/case-6.jpg" alt="智能联网挂锁" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">智能硬件</span>
+              <h3 class="case-card__title">智能联网挂锁</h3>
+              <p class="case-card__desc">Sera4 AP3 联网挂锁，基于身份的远程访问控制与实时监控。</p>
+            </div>
+          </article>
+
+          <article class="case-card reveal reveal--d7">
+            <img class="case-card__image" src="../img/case-7.jpg" alt="激光测距单筒镜" loading="lazy">
+            <div class="case-card__body">
+              <span class="case-card__tag">军用光学</span>
+              <h3 class="case-card__title">激光测距单筒镜</h3>
+              <p class="case-card__desc">Newcon LRM 3500M 加固型激光测距仪，为军事与野外作业提供精准远距离测量。</p>
+            </div>
+          </article>
+        </div>
+          <button class="cases-arrow cases-arrow--right" type="button">&#8250;</button>
+        </div>
+        <div class="cases-dots" aria-label="案例导航">
+          <button class="cases-dot cases-dot--active" data-index="0" aria-label="案例 1"></button>
+          <button class="cases-dot" data-index="1" aria-label="案例 2"></button>
+          <button class="cases-dot" data-index="2" aria-label="案例 3"></button>
+          <button class="cases-dot" data-index="3" aria-label="案例 4"></button>
+          <button class="cases-dot" data-index="4" aria-label="案例 5"></button>
+          <button class="cases-dot" data-index="5" aria-label="案例 6"></button>
+          <button class="cases-dot" data-index="6" aria-label="案例 7"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 + 中加双岸 -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">关于我们</span>
+          <h2 id="about-title" class="section__title">可被验证的实力</h2>
+          <p class="section__subtitle">我们不卖概念，不画大饼。每一个数字和认证都可以被独立查证。</p>
+        </div>
+
+        <div class="about-stats reveal">
+          <div class="about-stat">
+            <div class="about-stat__number">2004</div>
+            <div class="about-stat__label">年成立于多伦多</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat__number about-stat__number--gold">18+</div>
+            <div class="about-stat__label">年产品开发经验</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat__number">200+</div>
+            <div class="about-stat__label">成功交付项目</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat__number about-stat__number--gold">ISO</div>
+            <div class="about-stat__label">13485 + 9001 双认证</div>
+          </div>
+        </div>
+
+        <!-- 中加双岸 -->
+        <div class="dual-shore reveal">
+          <div class="dual-shore__card dual-shore__card--canada">
+            <div class="dual-shore__icon"></div>
+            <h3 class="dual-shore__title">Inertia Toronto</h3>
+            <p class="dual-shore__detail">加拿大研发与工程中心<br>工业设计 · 机械工程 · 电子设计<br>客户对接 · 项目管理 · 质量体系</p>
+          </div>
+          <div class="dual-shore__card dual-shore__card--china">
+            <div class="dual-shore__icon"></div>
+            <h3 class="dual-shore__title">广州易纳</h3>
+            <p class="dual-shore__detail">中国制造与供应链中心<br>生产制造 · 供应商管理 · 质量控制<br>中国企业出海 · 北美客户入华</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================================
+       页脚 Footer
+       ================================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- 品牌信息 -->
+        <div class="footer__col">
+          <h4>广州易纳</h4>
+          <p class="footer__brand-desc">
+            加拿大 Inertia PD 中国子公司。专注产品开发与制造，从概念到量产，跨太平洋一站式服务。
+          </p>
+          <div class="footer__cert-icons">
+            <span>ISO 13485:2016</span>
+            <span>ISO 9001</span>
+          </div>
+        </div>
+
+        <!-- 快速链接 -->
+        <div class="footer__col">
+          <h4>快速链接</h4>
+          <ul>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="business.html">我们的业务</a></li>
+            <li><a href="cases.html">项目案例</a></li>
+            <li><a href="news.html">动态</a></li>
+          </ul>
+        </div>
+
+        <!-- 服务 -->
+        <div class="footer__col">
+          <h4>核心服务</h4>
+          <ul>
+            <li><a href="business.html#design">产品设计与工程</a></li>
+            <li><a href="business.html#prototype">原型制作与验证</a></li>
+            <li><a href="business.html#medical">医疗器械制造</a></li>
+            <li><a href="business.html#supply">全球供应链管理</a></li>
+          </ul>
+        </div>
+
+        <!-- 联系方式 -->
+        <div class="footer__col">
+          <h4>联系我们</h4>
+          <ul>
+            <li><a href="contact.html">广州 · 中国</a></li>
+            <li><a href="contact.html">多伦多 · 加拿大</a></li>
+            <li><a href="mailto:info@inertiapd.cn">info@inertiapd.cn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 广州易纳 — Inertia Product Development 中国子公司</span>
+        <div class="footer-bottom__links">
+          <a href="#">隐私政策</a>
+          <a href="../en/index.html" data-lang-switch="en">English</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
