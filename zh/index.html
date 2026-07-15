@@ -19,41 +19,157 @@
 
   <!-- JSON-LD 结构化数据 -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "广州易纳",
-    "alternateName": "Inertia Guangzhou",
-    "url": "https://inertiapd.cn",
-    "logo": "../img/logo.svg",
-    "parentOrganization": {
+  [
+    {
+      "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Inertia Product Development",
-      "url": "https://www.inertiapd.com",
+      "name": "广州易纳",
+      "alternateName": "Inertia Guangzhou",
+      "url": "https://inertiapd.cn",
+      "logo": "../img/logo.svg",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Inertia Product Development",
+        "url": "https://www.inertiapd.com"
+      },
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "Ontario",
-        "addressCountry": "CA"
-      }
+        "addressLocality": "广州",
+        "addressRegion": "广东",
+        "addressCountry": "CN"
+      },
+      "certifications": [
+        { "@type": "Certification", "name": "ISO 13485:2016" },
+        { "@type": "Certification", "name": "ISO 9001" }
+      ],
+      "knowsAbout": [
+        "Medical Device Manufacturing",
+        "Product Development",
+        "Design for Manufacturing",
+        "Supply Chain Management"
+      ]
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "广州",
-      "addressRegion": "广东",
-      "addressCountry": "CN"
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "广州易纳有哪些国际认证？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "广州易纳持有 ISO 13485:2016 医疗器械质量管理体系认证和 ISO 9001 质量管理体系认证，具备受监管医疗器械的设计与制造合规资质，同时也是 FDA 注册制造商。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Inertia 中国子公司与加拿大母公司如何协作？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "采用中加双岸模式：多伦多团队负责工业设计、机械工程和客户对接，广州团队负责生产制造、供应链管理和质量控制，双方使用统一项目管理系统，确保全流程上下文不丢失。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Inertia 中国有哪些核心制造能力？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "核心能力覆盖四大板块：产品设计与工程、原型制作与验证、医疗器械制造（ISO 13485认证体系）、全球供应链管理（中国+北美双岸），提供从概念到量产的一站式服务。"
+          }
+        }
+      ]
     },
-    "certifications": [
-      { "@type": "Certification", "name": "ISO 13485:2016" },
-      { "@type": "Certification", "name": "ISO 9001" }
-    ],
-    "knowsAbout": [
-      "Medical Device Manufacturing",
-      "Product Development",
-      "Design for Manufacturing",
-      "Supply Chain Management"
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://inertia-cn.pages.dev/zh/index.html"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "项目案例",
+      "numberOfItems": 7,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "呼吸机氧气附件",
+            "description": "Baylis 100%氧气附件，为 V4C-560 呼吸机扩展氧气输送能力，支持严重呼吸病例治疗。",
+            "category": "医疗器械"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "移动医疗工作站",
+            "description": "Amico Hummingbird 电动升降移动工作站，为临床医护人员提供床旁计算与给药平台。",
+            "category": "医疗器械"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "床旁血液分析仪",
+            "description": "Verv 卡盒式即时诊断平台，单滴血即可完成多项目生物标志物分析。",
+            "category": "诊断设备"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Nuvio One 行动辅助设备",
+            "description": "帮助行动不便者行走、起身和移动，提供更佳支撑与控制。",
+            "category": "医疗辅助"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Product",
+            "name": "自主除草机器人",
+            "description": "Nexus Robotics AI驱动农业平台，机器视觉+混合动力，精准选择性除草。",
+            "category": "农业科技"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Product",
+            "name": "智能联网挂锁",
+            "description": "Sera4 AP3 联网挂锁，基于身份的远程访问控制与实时监控。",
+            "category": "智能硬件"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Product",
+            "name": "激光测距单筒镜",
+            "description": "Newcon LRM 3500M 加固型激光测距仪，为军事与野外作业提供精准远距离测量。",
+            "category": "军用光学"
+          }
+        }
+      ]
+    }
+  ]
   </script>
 
   <!-- Fonts -->

@@ -19,41 +19,157 @@
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Inertia Guangzhou",
-    "alternateName": "Guangzhou Yina",
-    "url": "https://en.inertiapd.cn",
-    "logo": "../img/logo.svg",
-    "parentOrganization": {
+  [
+    {
+      "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Inertia Product Development",
-      "url": "https://www.inertiapd.com",
+      "name": "Inertia Guangzhou",
+      "alternateName": "Guangzhou Yina",
+      "url": "https://en.inertiapd.cn",
+      "logo": "../img/logo.svg",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Inertia Product Development",
+        "url": "https://www.inertiapd.com"
+      },
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "Ontario",
-        "addressCountry": "CA"
-      }
+        "addressLocality": "Guangzhou",
+        "addressRegion": "Guangdong",
+        "addressCountry": "CN"
+      },
+      "certifications": [
+        { "@type": "Certification", "name": "ISO 13485:2016" },
+        { "@type": "Certification", "name": "ISO 9001" }
+      ],
+      "knowsAbout": [
+        "Medical Device Manufacturing",
+        "Product Development",
+        "Design for Manufacturing",
+        "Supply Chain Management"
+      ]
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Guangzhou",
-      "addressRegion": "Guangdong",
-      "addressCountry": "CN"
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What certifications does Inertia Guangzhou hold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inertia Guangzhou holds ISO 13485:2016 for medical device quality management, ISO 9001 for quality management systems, and is an FDA Registered Manufacturer for regulated medical devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the China-Canada dual-shore model work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The dual-shore model integrates Inertia's Toronto R&D and engineering center with the Guangzhou manufacturing and supply chain center. Both teams operate on a unified project management system, ensuring seamless collaboration from concept to production."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Inertia's core manufacturing capabilities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core capabilities span four pillars: Product Design & Engineering, Prototyping & Validation, Medical Device Manufacturing (ISO 13485 certified), and Global Supply Chain Management across China and North America."
+          }
+        }
+      ]
     },
-    "certifications": [
-      { "@type": "Certification", "name": "ISO 13485:2016" },
-      { "@type": "Certification", "name": "ISO 9001" }
-    ],
-    "knowsAbout": [
-      "Medical Device Manufacturing",
-      "Product Development",
-      "Design for Manufacturing",
-      "Supply Chain Management"
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://inertia-cn.pages.dev/en/index.html"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Case Studies",
+      "numberOfItems": 7,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Oxygen Accessory for Ventilator",
+            "description": "Baylis 100% oxygen accessory extends delivery capability of the V4C-560 for severe respiratory cases.",
+            "category": "Medical Device"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Mobile Medical Workstation",
+            "description": "Amico Hummingbird powered electric lift workstation for bedside documentation and medication workflows.",
+            "category": "Medical Device"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "POC Blood Analyzer",
+            "description": "Verv cartridge-based diagnostic platform for single-drop biomarker analysis via integrated electrochemistry.",
+            "category": "Diagnostics"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Nuvio One Mobility Device",
+            "description": "Close-reach mobility device helping people with reduced mobility walk, rise, and move with control.",
+            "category": "Medical Assistive"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Product",
+            "name": "Autonomous Weed Picking Robot",
+            "description": "Nexus Robotics AI-driven vehicle for selective weed removal using machine vision and hybrid-electric propulsion.",
+            "category": "AgTech"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Product",
+            "name": "Connected Access Hardware",
+            "description": "Sera4 AP3 connected padlock with identity-based access control, real-time monitoring, and auditable operations.",
+            "category": "Smart Hardware"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Product",
+            "name": "Laser Rangefinder Monocular",
+            "description": "Newcon LRM 3500M rugged laser rangefinder for precision long-range measurement in demanding environments.",
+            "category": "Defense Optics"
+          }
+        }
+      ]
+    }
+  ]
   </script>
 
   <!-- Fonts -->
