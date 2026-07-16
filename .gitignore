@@ -28,3 +28,10 @@ process_all.py
 pages/
 content/
 SCRAPE_REPORT.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
