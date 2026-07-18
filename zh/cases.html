@@ -10,6 +10,25 @@
   <link rel="alternate" hreflang="zh-CN" href="https://inertia-cn.pages.dev/zh/cases.html">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Outfit:wght@400;500;600;700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .gallery { display:flex; flex-direction:column; gap:64px; padding:64px 48px; max-width:1080px; margin:0 auto; }
+    .gallery-card { display:flex; align-items:flex-start; gap:48px; }
+    .gallery-card:nth-child(even) { flex-direction:row-reverse; }
+    .gallery-card__img { flex:0 0 48%; overflow:hidden; }
+    .gallery-card__img img { width:100%; height:auto; display:block; }
+    .gallery-card__body { flex:1; padding-top:0; }
+    .gallery-card__tag { display:inline-block; font-size:.75rem; font-weight:600; color:var(--color-gold); letter-spacing:.04em; margin-bottom:4px; }
+    .gallery-card__body h3 { font-size:var(--text-h3); color:var(--color-navy); font-weight:700; margin-bottom:16px; }
+    .gallery-card__body p { font-size:var(--text-small); color:var(--color-text-light); line-height:1.85; margin-bottom:8px; }
+    @media(max-width:768px){ .gallery-card,.gallery-card:nth-child(even){flex-direction:column;gap:20px} .gallery-card__img{flex:auto} }
+    .gallery-card__body { flex:1; }
+    .gallery-card__tag { display:inline-block; font-size:.75rem; font-weight:600; color:var(--color-gold); letter-spacing:.04em; margin-bottom:4px; }
+    .gallery-card__body h3 { font-size:var(--text-h3); color:var(--color-navy); font-weight:700; margin-bottom:12px; }
+    .gallery-card__body p { font-size:var(--text-body); color:var(--color-text-light); line-height:1.8; }
+    @media(max-width:768px){ .gallery-card,.gallery-card:nth-child(even){flex-direction:column;gap:20px} .gallery-card__img{flex:auto} }
+    @media(max-width:1024px){ .gallery{grid-template-columns:repeat(2,1fr)} }
+    @media(max-width:640px){ .gallery{grid-template-columns:1fr} }
+  </style>
 </head>
 <body>
 <header class="site-header"><div class="nav-container">
@@ -22,140 +41,72 @@
   </ul>
   <span class="nav-divider"></span>
   <div class="nav-phone"><span class="nav-phone__icon"></span><div class="nav-phone__text"><span class="nav-phone__label">Talk To A Specialist</span><span class="nav-phone__number">020-8482 0087</span></div></div>
-  <div class="nav-lang"><a href="../en/cases.html" data-lang-switch="en">EN</a></div>
-  </nav>
+  <div class="nav-lang"><a href="../en/cases.html" data-lang-switch="en">EN</a></div></nav>
   <button class="nav-toggle"><span></span><span></span><span></span></button>
 </div></header>
-
 <main>
   <section class="hero hero--cases" style="height:520px"><div class="container"><div class="hero__content">
     <span class="hero__tagline">Our Work · 项目案例</span>
     <h1 class="hero__title"><span class="hero__title-white">我们交付的产品</span><strong>每一个背后都是完整旅程</strong></h1>
     <p class="hero__subtitle">二十余年来，横跨医疗器械、机器人、工业系统与复杂机电产品。</p>
   </div></div></section>
-
   <section class="section" style="padding-bottom:0"><div class="container">
-    <div class="section__header">
-      <h2 class="section__title">新的一天，让我们一起重新定义世界</h2>
-      <p class="section__subtitle">详细了解我们的日常工作，以及我们是谁</p>
-    </div>
+    <div class="section__header"><h2 class="section__title">新的一天，让我们一起重新定义世界</h2><p class="section__subtitle">详细了解我们的日常工作，以及我们是谁</p></div>
   </div></section>
 
-  <!-- 第一组：左侧引言+头像，右侧两个产品 -->
+  <!-- 第一组：左引言+头像 / 右 Amico+Baylis（定稿，不变色） -->
   <section class="client-section">
-    <div class="client-layout">
+    <div class="client-layout client-layout--static">
       <aside class="client-left">
         <p class="client-left__quote">在COVID-19爆发期间，我们需要一家公司与我们合作，在创纪录的时间内开发一种新型医疗设备。Inertia是一个极好的伙伴。他们勇敢地迎接了挑战，我们成功地完成了项目。我们一起直接改善了世界各地患者的生活。</p>
         <div class="client-left__author">
           <img class="client-left__avatar" src="../img/customers/head1.png" alt="Neil Godara" loading="lazy">
-          <div class="client-left__info">
-            <strong>Neil Godara</strong>
-            Baylis 医疗<br>副总裁兼总经理
-          </div>
+          <div class="client-left__info"><strong>Neil Godara</strong>Baylis 医疗<br>副总裁兼总经理</div>
         </div>
       </aside>
-
       <div class="client-right">
         <article class="client-card">
-          <div class="client-card__image">
-            <img src="../img/customers/c1.png" alt="移动医疗工作站" loading="lazy">
-            <div class="client-card__brand client-card__brand--amico">Amico</div>
-          </div>
-          <div class="client-card__body">
-            <h3>移动工作站和药品抽屉</h3>
-            <p>这些移动医疗设备工作站经过优化，可增强临床医生的体验，提高管理效率，改善患者的效果。符合人体工程学的设计包括显示器高度可调（坐姿或站姿）、倾斜和枢轴功能、可定制的附件轨道和超大轻量脚轮，实现效用最大化。此外，设计还包括电源线支架、键盘支架、防溅工作台、可锁定的PC隔间和药品抽屉。</p>
-          </div>
+          <div class="client-card__image"><img src="../img/customers/c1.png" alt="移动工作站" loading="lazy"><div class="client-card__brand client-card__brand--amico">Amico</div></div>
+          <div class="client-card__body"><h3>移动工作站和药品抽屉</h3><p>这些移动医疗设备工作站经过优化，可增强临床医生的体验，提高管理效率，改善患者的效果。符合人体工程学的设计包括显示器高度可调、倾斜和枢轴功能、可定制的附件轨道和超大轻量脚轮。还包括电源线支架、键盘支架、防溅工作台、可锁定的PC隔间和药品抽屉。</p></div>
         </article>
-
         <article class="client-card client-card--alt">
-          <div class="client-card__image">
-            <img src="../img/customers/c2.png" alt="100%氧气呼吸机配件" loading="lazy">
-            <div class="client-card__brand client-card__brand--baylis">Baylis MEDICAL</div>
-          </div>
-          <div class="client-card__body">
-            <h3>100% 氧气呼吸机配件</h3>
-            <p>Baylis聘请Inertia公司为V4C-560呼吸机开发一个附件的工业设计。该呼吸机基于美敦力PB560设计，结构小、重量轻、便于携带，可为儿童和成人提供气道支持。COVID-19带来的严重呼吸道症状需要更高比例的氧气——Inertia帮助设计和制造了使V4C-560在必要时能够提供100%氧饱和度的配件。</p>
-          </div>
+          <div class="client-card__image"><img src="../img/customers/c2.png" alt="氧气呼吸机配件" loading="lazy"><div class="client-card__brand client-card__brand--baylis">Baylis MEDICAL</div></div>
+          <div class="client-card__body"><h3>100% 氧气呼吸机配件</h3><p>Baylis聘请Inertia为V4C-560呼吸机开发附件的工业设计。该呼吸机基于美敦力PB560设计，结构小、重量轻、便于携带。COVID-19带来的严重呼吸道症状需要更高比例的氧气——Inertia帮助设计和制造了使V4C-560在必要时能够提供100%氧饱和度的配件。</p></div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- 剩余客户：全宽交替图文 -->
-  <section class="client-section" style="background:var(--color-bg)">
-    <div class="client-full">
-
-      <article class="client-card client-card--wide">
-        <div class="client-card__image">
-          <img src="../img/customers/c3.png" alt="快速血液分析仪" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">Qvella</div>
-        </div>
-        <div class="client-card__body">
-          <h3>快速血液分析仪</h3>
-          <p>在几分钟内，Qvella血液分析仪能够检测到血液中90%的潜在有害病原体，然后可以分离和治疗。它是一种变革性的产品，可以大大降低传染性病原体在体内检测的传播速度，并有助于加快危重患者的抗菌治疗。</p>
-        </div>
+  <!-- 卡片画廊：3列×2行 -->
+  <section class="client-section">
+    <div class="gallery">
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/c3.png" alt="快速血液分析仪" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">Qvella</span><h3>快速的血液分析仪</h3><p>在几分钟内，Qvella血液分析仪能够检测到血液中90%的潜在有害病原体，然后可以分离和治疗。它是一种变革性的产品，可以大大降低传染性病原体的传播速度在体内检测，并有助于加快危重患者的抗菌治疗。</p></div>
       </article>
-
-      <article class="client-card client-card--wide client-card--alt">
-        <div class="client-card__image">
-          <img src="../img/customers/c4.png" alt="淋浴轮椅" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">Raz Design</div>
-        </div>
-        <div class="client-card__body">
-          <h3>淋浴/马桶轮椅</h3>
-          <p>Raz Design和Inertia自2014年以来一直合作，创新设计了5款移动淋浴座椅——Zum, Jaz, ART, Rize & Trakz以及Wheelz定制轮椅。舒适、一流的座椅和可访问性驱动了我们的设计方法，每把椅子都提供一系列选项，允许用户和护理人员配置移动淋浴马桶椅以满足独特需求。</p>
-        </div>
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/c4.png" alt="淋浴轮椅" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">Raz Design</span><h3>淋浴 / 马桶轮椅</h3><p>Raz Design和Inertia自2014年以来一直合作，创新设计和设计了5款移动淋浴座椅：Zum, Jaz, ART, Rize &amp; Trakz以及Wheelz——这些定制的轮子可以用在Raz的几个椅子模型上。舒适、一流的座椅和可访问性驱动了我们的设计方法，每把椅子都提供了一系列的选项，允许用户和服务人员配置移动淋浴马桶椅，以满足他们独特的需求。</p></div>
       </article>
-
-      <article class="client-card client-card--wide">
-        <div class="client-card__image">
-          <img src="../img/customers/c5.png" alt="眼科成像系统" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">Cellview</div>
-        </div>
-        <div class="client-card__body">
-          <h3>眼科成像系统</h3>
-          <p>Cellview公司的Non-Mydriatic Ultra-Widefield WRI-1正在颠覆眼部护理领域，为医生和临床医生提供了一种负担得起的、功能强大的诊断工具。Inertia为这个革命性的新产品提供工业设计、工程和原型，符合IEC 60601-1医疗器械安全标准。最终产品为临床医生提供了比以往更快、更容易、更经济的高质量视网膜成像。</p>
-        </div>
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/c5.png" alt="眼科成像系统" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">CELLVIEW IMAGING</span><h3>眼科成像系统</h3><p>Cellview公司的Non-Mydriatic Ultra-Widefield WRI-1正在颠覆眼部护理领域，为医生和临床医生提供了一种负担得起的、功能强大的诊断工具，可以检查视网膜和远至视网膜周边，而无需使用扩张眼药水。Inertia为这个革命性的新产品提供工业设计、工程和原型，符合IEC 60601-1医疗器械安全标准。最终产品为临床医生提供了比以往更快、更容易、更经济的高质量视网膜成像，通过早期眼科疾病的检测和管理改善了患者的眼部健康。</p></div>
       </article>
-
-      <article class="client-card client-card--wide client-card--alt">
-        <div class="client-card__image">
-          <img src="../img/customers/c6.png" alt="创新移动设备" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">Nuvio</div>
-        </div>
-        <div class="client-card__body">
-          <h3>创新的移动设备</h3>
-          <p>Nuvio One拥有独特的双扶手系统和周到的工程设计，提供了增强的稳定性、机动性，以及坐、站和走之间的过渡。除了提供产品设计和开发服务，Inertia还一直支持Nuvio的产品战略，包括市场研究、研讨会、用户调查、现场验证和测试。</p>
-        </div>
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/c6.png" alt="创新移动设备" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">nuvio</span><h3>创新的移动设备</h3><p>Nuvio One拥有独特的双扶手系统和周到的工程设计，提供了增强的稳定性、机动性，以及坐、站和走之间的过渡。其紧凑的设计还有助于提高功能范围，并在密闭空间中提供更好的流动性。除了提供产品设计和开发服务，Inertia还一直支持Nuvio的产品战略，包括市场研究、研讨会、用户调查、现场验证和测试。</p></div>
       </article>
-
-      <article class="client-card client-card--wide">
-        <div class="client-card__image">
-          <img src="../img/customers/附件6.jpg" alt="除草机器人" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">Nexus Robotics</div>
-        </div>
-        <div class="client-card__body">
-          <h3>自主除草机器人</h3>
-          <p>农时不等人。短短六个月内，Inertia便完成了自主除草车的全新工程设计——涵盖机械结构、车身制造、电子电力及控制系统。历经三个月，如期交付首批试验车队所需的全套定制化与现成部件。没有他们的鼎力相助，我们的创新速度绝难以达到如此境界。</p>
-        </div>
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/附件7.png" alt="除草机器人" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">Nexus Robotics</span><h3>除草机器人</h3><blockquote class="client-item__quote" style="margin:0;font-size:.875rem;color:#777;line-height:1.8;font-style:italic">"农时不等人。正因如此，我们选择与Inertia达成合作，由其担任一站式硬件工程与制造服务商。短短六个月内，他们便完成了自主除草车的全新工程设计——涵盖机械结构、车身制造、电子电力及控制系统。又历经三个月，他们如期交付首批试验车队所需的全套定制化与现成部件。没有他们的鼎力相助，我们的创新速度绝难以达到如此境界。"</blockquote></div>
       </article>
-
-      <article class="client-card client-card--wide client-card--alt">
-        <div class="client-card__image">
-          <img src="../img/customers/附件7.png" alt="家用式水培花园" loading="lazy">
-          <div class="client-card__brand" style="color:var(--color-navy)">AEVA</div>
-        </div>
-        <div class="client-card__body">
-          <h3>家用式水培花园</h3>
-          <p>他们不仅设计出能完美融入家居环境的精美垂直种植花园，更帮助我们显著提升毛利润率，并快速扩大生产规模以满足日益增长的市场需求。</p>
-        </div>
+      <article class="gallery-card">
+        <div class="gallery-card__img"><img src="../img/customers/附件6.jpg" alt="家用式水培花园" loading="lazy"></div>
+        <div class="gallery-card__body"><span class="gallery-card__tag">Aeva</span><h3>家用式水培花园</h3><blockquote class="client-item__quote" style="margin:0;font-size:.875rem;color:#777;line-height:1.8;font-style:italic">"他们不仅设计出能完美融入家居环境的精美垂直种植花园，更帮助我们显著提升毛利润率，并快速扩大生产规模以满足日益增长的市场需求。"</blockquote></div>
       </article>
-
     </div>
   </section>
-
 </main>
-
 <footer class="site-footer"><div class="container">
   <div class="footer-grid">
     <div class="footer__col"><h4>广州易纳</h4><p class="footer__brand-desc">加拿大 Inertia PD 中国子公司。</p><div class="footer__cert-icons"><span>ISO 13485:2016</span><span>ISO 9001</span></div></div>
