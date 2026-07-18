@@ -1497,7 +1497,33 @@ img {
   text-align: right;
 }
 
+/* 全宽客户卡片 */
+.client-full {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.client-card--wide {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  transition: background var(--duration-normal) var(--ease-out);
+}
+
+.client-card--wide:hover {
+  background: #fff8e0;
+}
+
 @media (max-width: 1024px) {
+  .client-full {
+    padding: var(--space-lg);
+    gap: var(--space-lg);
+  }
+
   .client-layout {
     flex-direction: column;
   }
