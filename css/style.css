@@ -1335,99 +1335,197 @@ img {
 }
 
 /* --------------------------------------------------------
-   9.5. 客户展示 Client Row
+   9.5. 客户展示 Client Layout
    -------------------------------------------------------- */
-.client-row {
+.client-section {
+  padding: 0;
+  background: var(--color-white);
+}
+
+.client-layout {
+  display: flex;
+  gap: 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 86vh;
+}
+
+/* 左窄栏 */
+.client-left {
+  flex: 0 0 28%;
+  padding: var(--space-3xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #e8e8e8;
+}
+
+.client-left__quote {
+  font-size: var(--text-small);
+  color: var(--color-text-light);
+  font-style: italic;
+  line-height: 1.9;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.client-left__quote::before {
+  content: open-quote;
+  font-size: 2em;
+  color: var(--color-gold);
+  line-height: 0;
+  vertical-align: -0.3em;
+  margin-right: 2px;
+}
+
+.client-left__quote::after {
+  content: close-quote;
+  font-size: 2em;
+  color: var(--color-gold);
+  line-height: 0;
+  vertical-align: -0.5em;
+  margin-left: 2px;
+}
+
+.client-left__author {
   display: flex;
   align-items: center;
-  min-height: 420px;
+  gap: var(--space-sm);
+  margin-top: auto;
 }
 
-.client-row--reverse {
-  flex-direction: row-reverse;
-}
-
-.client-row__image {
-  flex: 0 0 50%;
-  height: 420px;
-  overflow: hidden;
-  background: var(--color-bg);
-}
-
-.client-row__image img {
-  width: 100%;
-  height: 100%;
+.client-left__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
-.client-row__image--grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.client-left__info {
+  font-size: var(--text-xs);
+  color: var(--color-navy);
+  line-height: 1.5;
 }
 
-.client-row__image--grid img {
-  height: 210px;
+.client-left__info strong {
+  display: block;
+  font-size: var(--text-small);
 }
 
-.client-row__text {
-  flex: 0 0 50%;
-  padding: var(--space-3xl) var(--space-2xl);
+/* 右宽栏 */
+.client-right {
+  flex: 1;
+  padding: var(--space-2xl) var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+}
+
+/* 客户卡片 */
+.client-card {
+  display: flex;
+  gap: var(--space-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  transition: background var(--duration-normal) var(--ease-out);
+  cursor: default;
+}
+
+.client-card:hover {
+  background: #fff8e0;
+}
+
+.client-card__image {
+  flex: 0 0 260px;
+  border: 1.5px solid var(--color-gold);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.client-card__image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.client-card__brand {
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background: var(--color-white);
+  border-top: 1px solid #eee;
+}
+
+.client-card__brand--amico {
+  color: var(--color-navy);
+}
+
+.client-card__brand--baylis {
+  color: #000;
+}
+
+.client-card__body {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.client-row__label {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  color: var(--color-gold);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: var(--space-xs);
+.client-card__body h3 {
+  font-size: var(--text-h3);
+  color: var(--color-navy);
+  margin-bottom: var(--space-sm);
+  font-weight: 700;
 }
 
-.client-row__text h3 {
-  font-size: var(--text-h2);
-  color: var(--color-navy);
+.client-card__body p {
+  font-size: var(--text-small);
+  color: var(--color-text);
+  line-height: 1.7;
   margin-bottom: var(--space-sm);
 }
 
-.client-row__role {
-  font-size: var(--text-small);
-  color: var(--color-text-light);
-  margin-bottom: var(--space-lg);
+.client-card--alt {
+  flex-direction: row-reverse;
 }
 
-.client-row__quote {
-  font-size: var(--text-body);
-  color: var(--color-text);
-  line-height: 1.8;
-  font-style: italic;
-  border-left: 3px solid var(--color-gold);
-  padding-left: var(--space-lg);
-  margin: 0;
+.client-card--alt .client-card__body {
+  text-align: right;
 }
 
-.client-row__text p {
-  font-size: var(--text-body);
-  color: var(--color-text);
-  line-height: 1.8;
-}
-
-@media (max-width: 768px) {
-  .client-row,
-  .client-row--reverse {
+@media (max-width: 1024px) {
+  .client-layout {
     flex-direction: column;
   }
 
-  .client-row__image,
-  .client-row__text {
+  .client-left {
     flex: 0 0 auto;
-    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: var(--space-xl);
   }
 
-  .client-row__image {
-    height: 280px;
+  .client-left__author {
+    margin-top: var(--space-lg);
+  }
+
+  .client-right {
+    padding: var(--space-lg);
+    gap: var(--space-lg);
+  }
+
+  .client-card,
+  .client-card--alt {
+    flex-direction: column;
+  }
+
+  .client-card__image {
+    flex: 0 0 auto;
+    max-width: 100%;
   }
 }
 
