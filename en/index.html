@@ -26,7 +26,8 @@
       "name": "Inertia Guangzhou",
       "alternateName": "Guangzhou Yina",
       "url": "https://en.inertiapd.cn",
-      "logo": "../img/logo.svg",
+      "logo": "https://inertia-cn.pages.dev/img/logo.svg",
+      "image": "https://inertia-cn.pages.dev/img/logo.svg",
       "parentOrganization": {
         "@type": "Organization",
         "name": "Inertia Product Development",
@@ -47,6 +48,10 @@
         "Product Development",
         "Design for Manufacturing",
         "Supply Chain Management"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/inertia",
+        "https://www.inertiapd.com"
       ]
     },
     {
@@ -217,7 +222,7 @@
             </div>
           </li>
 
-          <li><a href="cases.html">Our Customers</a></li>
+          <li><a href="cases.html">Manufacturing</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -286,7 +291,7 @@
             We help teams carry critical decisions forward so ideas become products that can be verified, manufactured, and trusted at scale through disciplined hardware product development.
           </p>
           <div class="hero__actions">
-            <a href="contact.html" class="btn btn--primary">Explore Our Capabilities</a>
+            <a href="contact.html" class="btn btn--primary btn-h-arrow">Explore Our Capabilities</a>
             <a href="cases.html" class="btn btn--outline">View Case Studies</a>
           </div>
         </div>
@@ -358,11 +363,23 @@
       <hr class="trust-divider">
     </section>
 
+    <!-- Client Logo Strip -->
+    <div class="client-logos reveal">
+      <div class="client-logos__grid">
+        <img class="client-logos__item" src="../img/customers/c1.png" alt="Baylis Medical" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c2.png" alt="Amico" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c3.png" alt="Qvella" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c4.png" alt="Raz Design" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c5.png" alt="Cellview" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c6.png" alt="Nuvio" loading="lazy">
+      </div>
+    </div>
+
     <!-- Case Studies -->
     <section class="section section--gray" id="cases" aria-labelledby="cases-title">
       <div class="container">
         <div class="section__header reveal">
-          <span class="section__label">Our Customers</span>
+          <span class="section__label">Manufacturing</span>
           <h2 id="cases-title" class="section__title"><span style="color:var(--color-gold)">OUR</span> <span style="color:var(--color-navy)">WORK</span></h2>
           <p class="section__subtitle">Our portfolio reflects more than two decades of hardware product development and manufacturing across regulated medical devices, robotics, industrial systems, and complex electromechanical products.</p>
         </div>
@@ -447,6 +464,54 @@
       </div>
     </section>
 
+    <!-- Manufacturing Showcase -->
+    <section class="section" id="workshop" aria-labelledby="workshop-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">Our Facility</span>
+          <h2 id="workshop-title" class="section__title"><span style="color:var(--color-gold)">Real</span> <span style="color:var(--color-navy)">Production Floor</span></h2>
+          <p class="section__subtitle">Our Guangzhou Panyu facility is a fully operational manufacturing base — from incoming inspection to finished product packaging, every step is managed in-house to international standards.</p>
+        </div>
+        <!-- Manufacturing Capabilities -->
+        <div class="mfg-capabilities reveal">
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9881;</div>
+            <h4 class="mfg-cap__title">Precision Manufacturing</h4>
+            <p class="mfg-cap__desc">ISO 13485 certified production lines covering assembly, testing, and packaging for medical devices and complex electromechanical products.</p>
+          </div>
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9745;</div>
+            <h4 class="mfg-cap__title">Quality Control</h4>
+            <p class="mfg-cap__desc">From incoming inspection to final shipment, every process step has a quality control gate ensuring batch consistency and full traceability.</p>
+          </div>
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9733;</div>
+            <h4 class="mfg-cap__title">Supply Chain Integration</h4>
+            <p class="mfg-cap__desc">Leveraging China's manufacturing ecosystem to integrate premium supplier resources for optimal cost-quality balance.</p>
+          </div>
+        </div>
+        <!-- Workshop Photos -->
+        <div class="workshop-showcase reveal">
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/zhizao.jpg" alt="Production floor" loading="lazy">
+            <div class="workshop-showcase__caption">Production</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/jianyan.jpg" alt="Quality inspection" loading="lazy">
+            <div class="workshop-showcase__caption">Quality Inspection</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/dabao.jpg" alt="Product packaging" loading="lazy">
+            <div class="workshop-showcase__caption">Packaging</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/chouyang.jpg" alt="Sampling standards" loading="lazy">
+            <div class="workshop-showcase__caption">Sampling Inspection</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- About + Dual Shore -->
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container">
@@ -493,6 +558,41 @@
 
   </main>
 
+  <!-- Footer CTA -->
+  <section class="cta-footer reveal">
+    <div class="cta-footer__inner">
+      <div class="cta-footer__header">
+        <div class="cta-footer__icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="7" x2="16" y2="7" stroke="currentColor" stroke-width="2"/><line x1="8" y1="11" x2="16" y2="11" stroke="currentColor" stroke-width="2"/><line x1="8" y1="15" x2="12" y2="15" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h2 class="cta-footer__title">Ready to Start Your Project?</h2>
+        <p class="cta-footer__sub">Tell us what you're building. We'll help you get it manufactured — at international standards.</p>
+      </div>
+      <div class="cta-footer__body">
+        <p class="cta-footer__text">Every project begins with a conversation. Whether you have a complete design package, an early concept, or a production challenge that needs solving — our team brings 20+ years of engineering and manufacturing experience to the table. <strong>Let's talk about what needs to scale next.</strong></p>
+        <div class="contact-form-wrap">
+          <form action="#" method="post">
+            <div class="contact-form__row">
+              <div class="contact-form__field">
+                <label class="contact-form__label" for="ftr-name-en">Name</label>
+                <input class="contact-form__input" type="text" id="ftr-name-en" name="name" required>
+              </div>
+              <div class="contact-form__field">
+                <label class="contact-form__label" for="ftr-email-en">Email</label>
+                <input class="contact-form__input" type="email" id="ftr-email-en" name="email" required>
+              </div>
+            </div>
+            <div class="contact-form__row">
+              <div class="contact-form__field contact-form__field--full">
+                <label class="contact-form__label" for="ftr-msg-en">Message</label>
+                <textarea class="contact-form__textarea" id="ftr-msg-en" name="message" required></textarea>
+              </div>
+            </div>
+            <button class="contact-form__submit" type="submit">Start the Conversation</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================================================================
        Footer
        ================================================================ -->
@@ -515,7 +615,7 @@
           <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="business.html">Services</a></li>
-            <li><a href="cases.html">Our Customers</a></li>
+            <li><a href="cases.html">Manufacturing</a></li>
             <li><a href="news.html">News</a></li>
           </ul>
         </div>

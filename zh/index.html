@@ -26,7 +26,8 @@
       "name": "广州易纳",
       "alternateName": "Inertia Guangzhou",
       "url": "https://inertiapd.cn",
-      "logo": "../img/logo.svg",
+      "logo": "https://inertia-cn.pages.dev/img/logo.svg",
+      "image": "https://inertia-cn.pages.dev/img/logo.svg",
       "parentOrganization": {
         "@type": "Organization",
         "name": "Inertia Product Development",
@@ -47,6 +48,10 @@
         "Product Development",
         "Design for Manufacturing",
         "Supply Chain Management"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/inertia",
+        "https://www.inertiapd.com"
       ]
     },
     {
@@ -221,7 +226,7 @@
             </div>
           </li>
 
-          <li><a href="cases.html">我们的客户</a></li>
+          <li><a href="cases.html">制造</a></li>
           <li><a href="news.html">动态</a></li>
           <li><a href="contact.html">联系我们</a></li>
         </ul>
@@ -298,7 +303,7 @@
             我们帮助团队将关键决策一路贯彻到底——让想法成为可验证、可量产、可规模化信赖的产品，通过严谨的硬件产品开发流程。
           </p>
           <div class="hero__actions">
-            <a href="contact.html" class="btn btn--primary">咨询我们的能力</a>
+            <a href="contact.html" class="btn btn--primary btn-h-arrow">咨询我们的能力</a>
             <a href="cases.html" class="btn btn--outline">查看项目案例</a>
           </div>
         </div>
@@ -370,11 +375,23 @@
       <hr class="trust-divider">
     </section>
 
+    <!-- 客户 Logo 墙 -->
+    <div class="client-logos reveal">
+      <div class="client-logos__grid">
+        <img class="client-logos__item" src="../img/customers/c1.png" alt="Baylis 医疗" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c2.png" alt="Amico" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c3.png" alt="Qvella" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c4.png" alt="Raz Design" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c5.png" alt="Cellview" loading="lazy">
+        <img class="client-logos__item" src="../img/customers/c6.png" alt="Nuvio" loading="lazy">
+      </div>
+    </div>
+
     <!-- 案例展示 -->
     <section class="section section--gray" id="cases" aria-labelledby="cases-title">
       <div class="container">
         <div class="section__header reveal">
-          <span class="section__label">我们的客户</span>
+          <span class="section__label">制造</span>
           <h2 id="cases-title" class="section__title"><span style="color:var(--color-gold)">我们的</span> <span style="color:var(--color-navy)">产品</span></h2>
           <p class="section__subtitle">二十余年来，我们的产品组合横跨受监管医疗器械、机器人、工业系统和复杂机电产品——覆盖从概念开发到规模化量产的全流程。</p>
         </div>
@@ -459,6 +476,54 @@
       </div>
     </section>
 
+    <!-- 实地制造 -->
+    <section class="section" id="workshop" aria-labelledby="workshop-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">实地制造</span>
+          <h2 id="workshop-title" class="section__title"><span style="color:var(--color-gold)">真实</span> <span style="color:var(--color-navy)">生产产地</span></h2>
+          <p class="section__subtitle">我们在广州番禺拥有真实的生产制造基地，从零件检验到成品包装，全流程自主管控，确保每一件产品都符合国际标准。</p>
+        </div>
+        <!-- 制造能力 -->
+        <div class="mfg-capabilities reveal">
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9881;</div>
+            <h4 class="mfg-cap__title">精密制造</h4>
+            <p class="mfg-cap__desc">ISO 13485 认证产线，覆盖医疗器械与复杂机电产品的装配、测试与包装全流程。</p>
+          </div>
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9745;</div>
+            <h4 class="mfg-cap__title">质量管控</h4>
+            <p class="mfg-cap__desc">从来料检验到成品出货，每一道工序都设有质量控制节点，确保批次一致性与可追溯性。</p>
+          </div>
+          <div class="mfg-cap__item">
+            <div class="mfg-cap__icon">&#9733;</div>
+            <h4 class="mfg-cap__title">供应链整合</h4>
+            <p class="mfg-cap__desc">依托中国制造业生态，整合优质供应商资源，实现成本与质量的最优均衡。</p>
+          </div>
+        </div>
+        <!-- 车间照片 -->
+        <div class="workshop-showcase reveal">
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/zhizao.jpg" alt="生产制造车间" loading="lazy">
+            <div class="workshop-showcase__caption">生产制造</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/jianyan.jpg" alt="质量检验" loading="lazy">
+            <div class="workshop-showcase__caption">质量检验</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/dabao.jpg" alt="产品打包" loading="lazy">
+            <div class="workshop-showcase__caption">成品包装</div>
+          </div>
+          <div class="workshop-showcase__item">
+            <img src="../img/workshop/chouyang.jpg" alt="抽样标准" loading="lazy">
+            <div class="workshop-showcase__caption">抽样检验</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 关于 + 中加双岸 -->
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container">
@@ -505,6 +570,41 @@
 
   </main>
 
+  <!-- Footer CTA -->
+  <section class="cta-footer reveal">
+    <div class="cta-footer__inner">
+      <div class="cta-footer__header">
+        <div class="cta-footer__icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="7" x2="16" y2="7" stroke="currentColor" stroke-width="2"/><line x1="8" y1="11" x2="16" y2="11" stroke="currentColor" stroke-width="2"/><line x1="8" y1="15" x2="12" y2="15" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h2 class="cta-footer__title">准备好开始您的项目了吗？</h2>
+        <p class="cta-footer__sub">告诉我们您正在研发什么，我们帮您以国际标准实现量产。</p>
+      </div>
+      <div class="cta-footer__body">
+        <p class="cta-footer__text">每个项目都始于一次对话。无论您是已有完整设计包、处于早期概念阶段，还是面临亟需解决的生产挑战——我们的团队拥有 20 余年工程与制造经验。 <strong>让我们谈谈下一步需要规模化什么。</strong></p>
+        <div class="contact-form-wrap">
+          <form action="#" method="post">
+            <div class="contact-form__row">
+              <div class="contact-form__field">
+                <label class="contact-form__label" for="ftr-name-zh">姓名</label>
+                <input class="contact-form__input" type="text" id="ftr-name-zh" name="name" required>
+              </div>
+              <div class="contact-form__field">
+                <label class="contact-form__label" for="ftr-email-zh">邮箱</label>
+                <input class="contact-form__input" type="email" id="ftr-email-zh" name="email" required>
+              </div>
+            </div>
+            <div class="contact-form__row">
+              <div class="contact-form__field contact-form__field--full">
+                <label class="contact-form__label" for="ftr-msg-zh">留言</label>
+                <textarea class="contact-form__textarea" id="ftr-msg-zh" name="message" required></textarea>
+              </div>
+            </div>
+            <button class="contact-form__submit" type="submit">开始对话</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================================================================
        页脚 Footer
        ================================================================ -->
@@ -529,7 +629,7 @@
           <ul>
             <li><a href="about.html">关于我们</a></li>
             <li><a href="business.html">我们的业务</a></li>
-            <li><a href="cases.html">我们的客户</a></li>
+            <li><a href="cases.html">制造</a></li>
             <li><a href="news.html">动态</a></li>
           </ul>
         </div>

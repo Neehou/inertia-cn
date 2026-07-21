@@ -16,28 +16,44 @@
   <meta property="og:type" content="website">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "about": {
-      "@type": "Organization",
-      "name": "广州易纳科技有限公司",
-      "alternateName": "Inertia Guangzhou",
-      "foundingDate": "2018",
-      "parentOrganization": {
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://inertia-cn.pages.dev/zh/index.html" },
+        { "@type": "ListItem", "position": 2, "name": "关于我们", "item": "https://inertia-cn.pages.dev/zh/about.html" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "about": {
         "@type": "Organization",
-        "name": "Inertia Product Development",
-        "foundingDate": "2004"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "广州",
-        "addressRegion": "广东",
-        "addressCountry": "CN"
-      },
-      "certifications": ["ISO 13485:2016", "ISO 9001"]
+        "name": "广州易纳科技有限公司",
+        "alternateName": "Inertia Guangzhou",
+        "foundingDate": "2018",
+        "url": "https://inertia-cn.pages.dev/zh/",
+        "logo": "https://inertia-cn.pages.dev/img/logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/inertia",
+          "https://www.inertiapd.com"
+        ],
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Inertia Product Development",
+          "foundingDate": "2004"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "广州",
+          "addressRegion": "广东",
+          "addressCountry": "CN"
+        },
+        "certifications": ["ISO 13485:2016", "ISO 9001"]
+      }
     }
-  }
+  ]
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,7 +78,9 @@
             <div class="nav-dropdown-menu">
               <a href="about.html">公司简介</a>
               <a href="about.html#story">我们的故事</a>
+              <a href="about.html#leadership">领导团队</a>
               <a href="about.html#dual-shore">中加双岸</a>
+              <a href="about.html#culture">团队文化</a>
               <a href="about.html#certifications">资质认证</a>
             </div>
           </li>
@@ -75,7 +93,7 @@
               <a href="business.html#supply">北美供应链对接</a>
             </div>
           </li>
-          <li><a href="cases.html">我们的客户</a></li>
+          <li><a href="cases.html">制造</a></li>
           <li><a href="news.html">动态</a></li>
           <li><a href="contact.html">联系我们</a></li>
         </ul>
@@ -113,7 +131,7 @@
     </section>
 
     <!-- 公司简介 -->
-    <section class="section" id="intro" aria-labelledby="intro-title">
+    <section class="section about-intro-wrap" id="intro" aria-labelledby="intro-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">公司简介</span>
@@ -124,6 +142,9 @@
           <p>广州易纳科技有限公司成立于2018年，是加拿大 Inertia Group Inc 在中国的重要战略组成部分。2025年7月，公司正式迁入广州番禺全新办公与制造基地，标志着进入全新发展阶段。</p>
           <p>母公司 Inertia Product Development 成立于2004年，位于加拿大多伦多，是北美领先的产品设计、工程开发与制造服务商，持有 ISO 13485 和 ISO 9001 双认证，连续多年获评加拿大最佳工作场所。</p>
           <p>广州易纳以工程部与品质部为核心，构建了从供应商管理、来料检验到生产过程控制、成品检验的全流程质量体系。从概念开发到成品交付的每一个环节，都遵循国际标准的严格管控。</p>
+        </div>
+        <div class="about-intro-image reveal">
+          <img src="../img/logo.svg" alt="Inertia" loading="lazy" style="max-width:240px;display:block;margin:0 auto;">
         </div>
       </div>
     </section>
@@ -167,6 +188,56 @@
       </div>
     </section>
 
+    <!-- 领导团队 -->
+    <section class="section section--gray" id="leadership" aria-labelledby="leadership-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">领导团队</span>
+          <h2 id="leadership-title" class="section__title">创始人寄语</h2>
+        </div>
+        <blockquote class="leadership-quote">
+          <p>我逐渐意识到，我们真正的本质是一家客户服务和客户体验的公司&hellip;&hellip;我们只是碰巧参与了设计、工程和制造。</p>
+        </blockquote>
+        <div class="leadership-grid">
+          <!-- Ray Minato -->
+          <div class="leadership-card">
+            <img class="leadership-card__photo" src="../img/team/ray.png" alt="Ray Minato" loading="lazy">
+            <h3 class="leadership-card__name">Ray Minato</h3>
+            <span class="leadership-card__title">Inertia 创始人 &amp; 总裁</span>
+            <blockquote class="leadership-card__quote">
+              <p>已故伟大的史蒂夫·乔布斯在2005年毕业典礼上的演讲中说："&hellip;&hellip;你不可能在展望未来的时候把这些点串连起来；你只能在回顾的时候串连它们。所以你必须相信这些点滴会在你的未来以某种方式连接起来。你必须相信一些东西——你的勇气、命运、生命、因果、循环，等等。这种方法从来没有让我失望，它让我的生活变得完全不同。"</p>
+              <p>回顾过去，我把我的点点滴滴串起来，我创立了"Inertia"，带着一种渴望，一种信念，也许是一种不同的感觉。当时我并不完全确定该如何设定方向，但说实话，我从未想过"Inertia"会变成今天的样子。我只知道，我想做的工作与我最初10年作为工程专业人员所做的工作有所不同。并不是说我的职业生涯在某种程度上是糟糕或消极的，我没有任何遗憾。事后我意识到，这并不是我想要的工作方式。这当然是有挑战性的，尝试的，有时完全精疲力尽，但伟大的事情从来都不容易。毕竟，它使我成为今天的我，一个成功的工程师、企业家、领导者、丈夫和父亲。</p>
+            </blockquote>
+          </div>
+          <!-- Larry Zhou -->
+          <div class="leadership-card">
+            <img class="leadership-card__photo" src="../img/team/larry.jpg" alt="Larry Zhou" loading="lazy">
+            <h3 class="leadership-card__name">Larry Zhou</h3>
+            <span class="leadership-card__title">易纳创始人</span>
+            <p class="leadership-card__subtitle">中加科技创新领军者 · 全产业链整合专家</p>
+            <ul class="leadership-card__achievements">
+              <li>25年横跨中加美三国的产品商业化实战经验</li>
+              <li>成功孵化50+国际创新项目，累计获得3项发明专利</li>
+              <li>打造加拿大年度最佳工作场所企业（2021）</li>
+              <li>主导项目多次斩获世界级工业设计大奖</li>
+              <li>构建价值数亿美元的儿童安全座椅品牌体系</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 团队合影 -->
+        <div class="team-gallery reveal">
+          <div class="team-gallery__item">
+            <img src="../img/workshop/tuandui.jpg" alt="Inertia 广州团队" loading="lazy">
+            <span class="team-gallery__label">Inertia 广州团队</span>
+          </div>
+          <div class="team-gallery__item">
+            <img src="../img/workshop/zhizao-tuandui.jpg" alt="Inertia 制造团队" loading="lazy">
+            <span class="team-gallery__label">制造团队</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 中加双岸 -->
     <section class="section section--gray" id="dual-shore" aria-labelledby="dual-title">
       <div class="container">
@@ -182,6 +253,28 @@
           <div class="dual-shore__card dual-shore__card--china">
             <h3 class="dual-shore__title">广州易纳</h3>
             <p class="dual-shore__detail">中国制造与供应链中心<br>供应商管理 · 来料检验 · 过程控制 · 成品验证<br>中国企业出海 · 北美客户入华 · 双岸统一项目管理</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 团队文化 -->
+    <section class="section section--gray" id="culture" aria-labelledby="culture-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">团队文化</span>
+          <h2 id="culture-title" class="section__title">跨时区的信任与协作</h2>
+          <p class="section__subtitle">跨越 12 个时区的两个城市，一个真正并肩作战的团队。</p>
+        </div>
+        <div class="team-culture reveal">
+          <div class="team-culture__image">
+            <img src="../img/workshop/huiyi.jpg" alt="Inertia 团队会议" loading="lazy">
+          </div>
+          <div class="team-culture__text">
+            <h3>从"我"到"我们"</h3>
+            <p>在 Inertia，团队不仅仅是一起工作的人。我们是彼此最坚实的后盾——当多伦多的同事结束一天，广州的同事恰好开始新的一天。不是远程协同，不是分布式办公，是真正的跨时区接力。</p>
+            <p>二十余年来，我们建立了信任、透明和快乐的文化——沟通开放，信息透明，彼此信任。我们去掉不必要的复杂性，保留让工作有意义的东西：专业中有温暖，卓越中有真诚的连接。</p>
+            <p>2026 年，Inertia 被评为加拿大最佳工作场所™，这份荣誉属于每一位跨越时区、坚守初心、全力以赴的团队成员。</p>
           </div>
         </div>
       </div>
@@ -214,6 +307,17 @@
             <span class="trust-item__icon trust-item__icon--pin"></span>
             <p class="trust-item__head">中加双实体</p>
             <p class="trust-item__desc">多伦多 · 广州<br>双岸统一管理体系</p>
+          </div>
+        </div>
+        <!-- 质量实景 -->
+        <div class="quality-showcase reveal">
+          <div class="quality-showcase__item">
+            <img src="../img/workshop/chouyang.jpg" alt="抽样标准" loading="lazy">
+            <span class="quality-showcase__label">抽样检验标准</span>
+          </div>
+          <div class="quality-showcase__item">
+            <img src="../img/workshop/jianyan.jpg" alt="质量检验实景" loading="lazy">
+            <span class="quality-showcase__label">来料检验流程</span>
           </div>
         </div>
       </div>
@@ -254,7 +358,7 @@
           <ul>
             <li><a href="about.html">关于我们</a></li>
             <li><a href="business.html">我们的业务</a></li>
-            <li><a href="cases.html">我们的客户</a></li>
+            <li><a href="cases.html">制造</a></li>
             <li><a href="news.html">动态</a></li>
           </ul>
         </div>

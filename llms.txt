@@ -1,0 +1,35 @@
+# Inertia Guangzhou (广州易纳)
+> ISO 13485:2016 certified medical device and smart hardware product development & manufacturing.
+> Chinese subsidiary of Canada's Inertia Group Inc. Dual-shore: Guangzhou + Toronto.
+
+## Core Pages
+
+### English
+- [Home](https://inertia-cn.pages.dev/en/index.html): Full-spectrum product development from concept to mass production. Three pillars: Innovation, Development, Manufacturing. ISO 13485 & ISO 9001 certified.
+- [Services](https://inertia-cn.pages.dev/en/business.html): Product Design & Engineering, Prototyping & Validation, Medical Device Manufacturing (ISO 13485), Global Supply Chain Management.
+- [Manufacturing](https://inertia-cn.pages.dev/en/cases.html): ISO 13485 certified manufacturing cases across 7 product categories. FAQ section on quality systems and supply chain.
+- [About Us](https://inertia-cn.pages.dev/en/about.html): Company history, mission, timeline. Subsidiary of Inertia PD (Canada).
+- [Contact](https://inertia-cn.pages.dev/en/contact.html): Panyu District, Guangzhou manufacturing center + Toronto R&D center. Tel: 020-8482 0087. Email: info@inertiapd.cn.
+- [News & Insights](https://inertia-cn.pages.dev/en/news.html): Company articles, technical blog, WeChat content, product videos, and whitepapers.
+- [Best Workplaces 2026](https://inertia-cn.pages.dev/en/news-best-workplaces.html): Inertia named 2026 Best Workplaces in Canada — dual-city team, cross-timezone culture, anonymous employee survey recognition.
+- [Suzhou University Lab Visit](https://inertia-cn.pages.dev/en/news-suzhou-lab.html): Technical exchange visit to Soochow University Engineering Lab — nanomaterials, welding & joining, research commercialization.
+- [China Pharmaceutical Visit](https://inertia-cn.pages.dev/en/news-china-pharma.html): China Pharmaceutical delegation visit — dignified aging, rehabilitation, smart hardware product development and manufacturing.
+
+### Chinese (中文)
+- [首页](https://inertia-cn.pages.dev/zh/index.html): 从概念到量产的全流程产品开发与制造服务。
+- [业务](https://inertia-cn.pages.dev/zh/business.html): 产品设计、原型验证、医疗器械制造、全球供应链。
+- [制造](https://inertia-cn.pages.dev/zh/cases.html): ISO 13485 认证制造案例。7 大产品品类。
+- [关于我们](https://inertia-cn.pages.dev/zh/about.html): 公司历史、愿景、时间线。
+- [联系我们](https://inertia-cn.pages.dev/zh/contact.html): 广州番禺制造中心 + 多伦多研发中心。
+- [动态](https://inertia-cn.pages.dev/zh/news.html): 公司新闻、技术文章、公众号内容。
+- [最佳工作场所 2026](https://inertia-cn.pages.dev/zh/news-best-workplaces.html): Inertia 获评 2026 加拿大最佳工作场所 — 双城团队、跨时区协作、匿名员工评审认可。
+- [苏州大学实验室参访](https://inertia-cn.pages.dev/zh/news-suzhou-lab.html): 赴苏州大学工程实验室参观交流 — 纳米材料、焊接与连接、科研成果转化。
+- [中国医药来访](https://inertia-cn.pages.dev/zh/news-china-pharma.html): 中国医药代表到访广州易纳 — 有尊严老龄化、康复照护、智能硬件产品开发与制造。
+
+## Key Entities
+- Company: Inertia Guangzhou / 广州易纳科技有限公司
+- Parent: Inertia Group Inc. (Canada) / Inertia PD
+- Certifications: ISO 13485:2016, ISO 9001
+- Industries: Medical devices, smart hardware, consumer electronics
+- Services: Industrial design, mechanical engineering, electronics, prototyping, manufacturing, supply chain
+- Locations: Guangzhou (Panyu District), Toronto

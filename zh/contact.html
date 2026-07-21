@@ -15,15 +15,27 @@
     "about": {
       "@type": "Organization",
       "name": "广州易纳科技有限公司",
+      "alternateName": "Inertia Guangzhou",
+      "url": "https://inertia-cn.pages.dev/zh/",
+      "logo": "https://inertia-cn.pages.dev/img/logo.svg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "石楼镇石清公路石楼段80号8栋1508-1509",
         "addressLocality": "广州",
         "addressRegion": "广东",
-        "addressCountry": "CN"
+        "addressCountry": "CN",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 22.9375,
+          "longitude": 113.3642
+        }
       },
       "telephone": "+86-20-84820087",
-      "email": "info@inertiapd.cn"
+      "email": "info@inertiapd.cn",
+      "sameAs": [
+        "https://www.linkedin.com/company/inertia",
+        "https://www.inertiapd.com"
+      ]
     }
   }
   </script>
@@ -37,7 +49,7 @@
     <li><a href="index.html">首页</a></li>
     <li class="nav-dropdown"><a href="about.html">关于我们</a><div class="nav-dropdown-menu"><a href="about.html">公司简介</a><a href="about.html#story">我们的故事</a><a href="about.html#dual-shore">中加双岸</a><a href="about.html#certifications">资质认证</a></div></li>
     <li class="nav-dropdown"><a href="business.html">我们的业务</a><div class="nav-dropdown-menu"><a href="business.html#design">产品设计与工程</a><a href="business.html#prototype">原型制作</a><a href="business.html#medical">医疗器械制造</a><a href="business.html#supply">供应链管理</a></div></li>
-    <li><a href="cases.html">我们的客户</a></li><li><a href="news.html">动态</a></li><li><a href="contact.html" class="active">联系我们</a></li>
+    <li><a href="cases.html">制造</a></li><li><a href="news.html">动态</a></li><li><a href="contact.html" class="active">联系我们</a></li>
   </ul>
   <span class="nav-divider"></span>
   <div class="nav-phone"><span class="nav-phone__icon"></span><div class="nav-phone__text"><span class="nav-phone__label">Talk To A Specialist</span><span class="nav-phone__number">020-8482 0087</span></div></div>
@@ -46,7 +58,7 @@
   <button class="nav-toggle"><span></span><span></span><span></span></button>
 </div></header>
 
-<main>
+<main class="contact-page">
   <section class="hero hero--contact" style="height:520px"><div class="container"><div class="hero__content">
     <span class="hero__tagline">Let's Talk</span>
     <h1 class="hero__title"><span class="hero__title-white">准备好开始了？</span><strong>联系我们</strong></h1>
@@ -55,6 +67,67 @@
 
   <section class="section"><div class="container">
     <div class="section__header"><span class="section__label">联系方式</span><h2 class="section__title">两地团队，一个系统</h2></div>
+    <div class="contact-layout">
+      <div>
+        <div class="contact-info-list">
+          <div class="contact-info-row">
+            <div class="contact-info-row__icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg></div>
+            <div class="contact-info-row__text">
+              <span class="contact-info-row__label">电话</span>
+              <span class="contact-info-row__value">020-8482 0087</span>
+            </div>
+          </div>
+          <div class="contact-info-row">
+            <div class="contact-info-row__icon"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm0 2l8 5 8-5H4zm0 2v10h16V8l-8 5-8-5z"/></svg></div>
+            <div class="contact-info-row__text">
+              <span class="contact-info-row__label">邮箱</span>
+              <span class="contact-info-row__value">info@inertiapd.cn</span>
+            </div>
+          </div>
+          <div class="contact-info-row">
+            <div class="contact-info-row__icon"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg></div>
+            <div class="contact-info-row__text">
+              <span class="contact-info-row__label">地址</span>
+              <span class="contact-info-row__value">广州市番禺区石楼镇石清公路石楼段80号 8栋1508-1509</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form action="#" method="post">
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="ctc-name-zh">姓名</label>
+              <input class="contact-form__input" type="text" id="ctc-name-zh" name="name" required>
+            </div>
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="ctc-email-zh">邮箱</label>
+              <input class="contact-form__input" type="email" id="ctc-email-zh" name="email" required>
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="ctc-company-zh">公司 <span class="optional">(选填)</span></label>
+              <input class="contact-form__input" type="text" id="ctc-company-zh" name="company">
+            </div>
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="ctc-phone-zh">电话</label>
+              <input class="contact-form__input" type="tel" id="ctc-phone-zh" name="phone">
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="contact-form__field contact-form__field--full">
+              <label class="contact-form__label" for="ctc-msg-zh">留言</label>
+              <textarea class="contact-form__textarea" id="ctc-msg-zh" name="message" required></textarea>
+            </div>
+          </div>
+          <button class="contact-form__submit" type="submit">开始对话</button>
+        </form>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="section section--gray"><div class="container">
     <div class="dual-shore">
       <div class="dual-shore__card dual-shore__card--canada">
         <h3 class="dual-shore__title">Inertia Toronto</h3>
@@ -83,7 +156,7 @@
 <footer class="site-footer"><div class="container">
   <div class="footer-grid">
     <div class="footer__col"><h4>广州易纳</h4><p class="footer__brand-desc">加拿大 Inertia PD 中国子公司。</p><div class="footer__cert-icons"><span>ISO 13485:2016</span><span>ISO 9001</span></div></div>
-    <div class="footer__col"><h4>快速链接</h4><ul><li><a href="about.html">关于我们</a></li><li><a href="business.html">我们的业务</a></li><li><a href="cases.html">我们的客户</a></li></ul></div>
+    <div class="footer__col"><h4>快速链接</h4><ul><li><a href="about.html">关于我们</a></li><li><a href="business.html">我们的业务</a></li><li><a href="cases.html">制造</a></li></ul></div>
     <div class="footer__col"><h4>核心服务</h4><ul><li><a href="business.html#design">产品设计与工程</a></li><li><a href="business.html#medical">医疗器械制造</a></li><li><a href="business.html#supply">供应链管理</a></li></ul></div>
     <div class="footer__col"><h4>联系我们</h4><ul><li>广州 · 中国</li><li>多伦多 · 加拿大</li><li>info@inertiapd.cn</li></ul></div>
   </div>

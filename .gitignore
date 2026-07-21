@@ -28,3 +28,7 @@ process_all.py
 pages/
 content/
 SCRAPE_REPORT.md
+.gstack/
+package-lock.json
+node_modules/
+package.json
