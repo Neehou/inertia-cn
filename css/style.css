@@ -2349,6 +2349,7 @@ img {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 16px;
+  color: var(--color-gold);
 }
 .mfg-banner-dark__body {
   font-size: 15px;
