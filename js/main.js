@@ -151,6 +151,47 @@
 
   }
 
+  /* ---- ContactForm ---- */
+  var contactForms = document.querySelectorAll('.js-contact-form');
+  contactForms.forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = form.querySelector('.contact-form__submit');
+      var origText = btn.textContent;
+
+      // 收集数据
+      var fields = form.querySelectorAll('input, textarea');
+      var data = {};
+      fields.forEach(function (f) { if (f.name) data[f.name] = f.value.trim(); });
+
+      if (!data.name || !data.email || !data.message) {
+        btn.textContent = '请填写必填项';
+        btn.style.background = '#e74c3c';
+        setTimeout(function () { btn.textContent = origText; btn.style.background = ''; }, 2000);
+        return;
+      }
+
+      // 构建邮件内容
+      var subject = encodeURIComponent('网站咨询' + (data.company ? ' - ' + data.company : '') + ' - ' + data.name);
+      var body = encodeURIComponent(
+        '姓名: ' + data.name + '\n' +
+        '邮箱: ' + data.email + '\n' +
+        '公司: ' + (data.company || '未填写') + '\n' +
+        '电话: ' + (data.phone || '未填写') + '\n' +
+        '\n留言:\n' + data.message
+      );
+
+      var mailto = 'mailto:GITSale1@inertiapd.com?subject=' + subject + '&body=' + body;
+
+      // 反馈
+      btn.textContent = '✓ 即将打开邮件客户端...';
+      btn.style.background = '#27ae60';
+      setTimeout(function () { btn.textContent = origText; btn.style.background = ''; }, 3000);
+
+      window.location.href = mailto;
+    });
+  });
+
   /* ---- 平滑滚动 ---- */
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
     a.addEventListener('click', function (e) {

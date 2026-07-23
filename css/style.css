@@ -8,9 +8,9 @@
    -------------------------------------------------------- */
 :root {
   /* 配色 */
-  --color-navy: #0A2540;
-  --color-navy-light: #123456;
-  --color-navy-dark: #061828;
+  --color-navy: #160C4B;
+  --color-navy-light: #24185B;
+  --color-navy-dark: #0C0628;
   --color-gold: #ffc000;
   --color-gold-hover: #e6ac00;
   --color-gold-light: rgba(255, 192, 0, 0.12);
@@ -23,7 +23,7 @@
   --color-text-muted: #aaaaaa;
   --color-white: #ffffff;
   --color-border: #e5e5e5;
-  --color-footer: #061828;
+  --color-footer: #0C0628;
   --color-footer-text: #b0b0c8;
 
   /* 字体 — 英文使用母公司品牌字体 Roboto 家族 */
@@ -266,7 +266,7 @@ img {
 
 .site-header--compact {
   height: var(--nav-height-compact);
-  background: rgba(10, 37, 64, 0.97);
+  background: rgba(22, 12, 75, 0.97);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(12px);
 }
@@ -912,7 +912,7 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg, rgba(10, 37, 64, 0.85) 35%, transparent 55%);
+  background: linear-gradient(105deg, rgba(22, 12, 75, 0.85) 35%, transparent 55%);
   pointer-events: none;
 }
 
@@ -920,7 +920,7 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(255deg, rgba(10, 37, 64, 0.85) 35%, transparent 55%);
+  background: linear-gradient(255deg, rgba(22, 12, 75, 0.85) 35%, transparent 55%);
   pointer-events: none;
 }
 
@@ -928,7 +928,7 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg, rgba(10, 37, 64, 0.85) 35%, transparent 55%);
+  background: linear-gradient(105deg, rgba(22, 12, 75, 0.85) 35%, transparent 55%);
   pointer-events: none;
 }
 
@@ -1097,6 +1097,28 @@ img {
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
+}
+
+/* 微信二维码 */
+.contact-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: var(--space-lg);
+  margin-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-qr img {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.contact-qr__label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.03em;
 }
 
 .contact-info-row {
@@ -3161,7 +3183,7 @@ img {
   left: 0;
   right: 0;
   height: 60%;
-  background: linear-gradient(to top, rgba(10,37,64,0.65) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(22,12,75,0.65) 0%, transparent 100%);
   pointer-events: none;
 }
 
