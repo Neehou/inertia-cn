@@ -187,6 +187,7 @@
 
   <!-- Favicon (复用母公司) -->
   <link rel="icon" href="../img/logo.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="../img/hero-home.webp" imagesrcset="../img/hero-home-480.webp 480w, ../img/hero-home-960.webp 960w, ../img/hero-home-1440.webp 1440w, ../img/hero-home.webp 1920w" imagesizes="100vw" fetchpriority="high">
 </head>
 <body>
 
@@ -379,12 +380,12 @@
     <!-- 客户 Logo 墙 -->
     <div class="client-logos reveal">
       <div class="client-logos__grid">
-        <picture><source srcset="../img/customers/c1.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c1.png" alt="Baylis 医疗" loading="lazy"></picture>
-        <picture><source srcset="../img/customers/c2.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c2.png" alt="Amico" loading="lazy"></picture>
-        <picture><source srcset="../img/customers/c3.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c3.png" alt="Qvella" loading="lazy"></picture>
-        <picture><source srcset="../img/customers/c4.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c4.png" alt="Raz Design" loading="lazy"></picture>
-        <picture><source srcset="../img/customers/c5.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c5.png" alt="Cellview" loading="lazy"></picture>
-        <picture><source srcset="../img/customers/c6.webp" type="image/webp"><img class="client-logos__item" src="../img/customers/c6.png" alt="Nuvio" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c1.webp 491w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c1.png" alt="Baylis 医疗" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c2.webp 491w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c2.png" alt="Amico" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c3-480.webp 480w, ../img/customers/c3-960.webp 960w, ../img/customers/c3.webp 1362w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c3.png" alt="Qvella" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c4-480.webp 480w, ../img/customers/c4-960.webp 960w, ../img/customers/c4.webp 1362w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c4.png" alt="Raz Design" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c5-480.webp 480w, ../img/customers/c5-960.webp 960w, ../img/customers/c5.webp 1356w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c5.png" alt="Cellview" loading="lazy"></picture>
+        <picture><source srcset="../img/customers/c6-480.webp 480w, ../img/customers/c6-960.webp 960w, ../img/customers/c6.webp 1362w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="client-logos__item" src="../img/customers/c6.png" alt="Nuvio" loading="lazy"></picture>
       </div>
     </div>
 
@@ -401,7 +402,7 @@
           <button class="cases-arrow cases-arrow--left" type="button">&#8249;</button>
           <div class="cases-grid">
           <article class="case-card reveal reveal--d1">
-            <picture><source srcset="../img/case-1.webp" type="image/webp"><img class="case-card__image" src="../img/case-1.jpg" alt="呼吸机氧气附件" loading="lazy"></picture>
+            <picture><source srcset="../img/case-1-480.webp 480w, ../img/case-1.webp 800w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="case-card__image" src="../img/case-1.jpg" alt="呼吸机氧气附件" loading="lazy"></picture>
             <div class="case-card__body">
               <span class="case-card__tag">医疗器械</span>
               <h3 class="case-card__title">呼吸机氧气附件</h3>
@@ -410,7 +411,7 @@
           </article>
 
           <article class="case-card reveal reveal--d2">
-            <picture><source srcset="../img/case-2.webp" type="image/webp"><img class="case-card__image" src="../img/case-2.jpg" alt="移动医疗工作站" loading="lazy"></picture>
+            <picture><source srcset="../img/case-2-480.webp 480w, ../img/case-2.webp 800w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="case-card__image" src="../img/case-2.jpg" alt="移动医疗工作站" loading="lazy"></picture>
             <div class="case-card__body">
               <span class="case-card__tag">医疗器械</span>
               <h3 class="case-card__title">移动医疗工作站</h3>
@@ -437,7 +438,7 @@
           </article>
 
           <article class="case-card reveal reveal--d5">
-            <picture><source srcset="../img/case-5.webp" type="image/webp"><img class="case-card__image" src="../img/case-5.jpg" alt="自主除草机器人" loading="lazy"></picture>
+            <picture><source srcset="../img/case-5-480.webp 480w, ../img/case-5.webp 799w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="case-card__image" src="../img/case-5.jpg" alt="自主除草机器人" loading="lazy"></picture>
             <div class="case-card__body">
               <span class="case-card__tag">农业科技</span>
               <h3 class="case-card__title">自主除草机器人</h3>
@@ -446,7 +447,7 @@
           </article>
 
           <article class="case-card reveal reveal--d6">
-            <picture><source srcset="../img/case-6.webp" type="image/webp"><img class="case-card__image" src="../img/case-6.jpg" alt="智能联网挂锁" loading="lazy"></picture>
+            <picture><source srcset="../img/case-6-480.webp 480w, ../img/case-6.webp 799w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="case-card__image" src="../img/case-6.jpg" alt="智能联网挂锁" loading="lazy"></picture>
             <div class="case-card__body">
               <span class="case-card__tag">智能硬件</span>
               <h3 class="case-card__title">智能联网挂锁</h3>
@@ -455,7 +456,7 @@
           </article>
 
           <article class="case-card reveal reveal--d7">
-            <picture><source srcset="../img/case-7.webp" type="image/webp"><img class="case-card__image" src="../img/case-7.jpg" alt="激光测距单筒镜" loading="lazy"></picture>
+            <picture><source srcset="../img/case-7-480.webp 480w, ../img/case-7.webp 799w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img class="case-card__image" src="../img/case-7.jpg" alt="激光测距单筒镜" loading="lazy"></picture>
             <div class="case-card__body">
               <span class="case-card__tag">军用光学</span>
               <h3 class="case-card__title">激光测距单筒镜</h3>
@@ -506,19 +507,19 @@
         <!-- 车间照片 -->
         <div class="workshop-showcase reveal">
           <div class="workshop-showcase__item">
-            <picture><source srcset="../img/workshop/xiezilou.webp" type="image/webp"><img src="../img/workshop/xiezilou.jpg" alt="公司写字楼" loading="lazy"></picture>
+            <picture><source srcset="../img/workshop/xiezilou-480.webp 480w, ../img/workshop/xiezilou-960.webp 960w, ../img/workshop/xiezilou-1440.webp 1440w, ../img/workshop/xiezilou.webp 1920w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img src="../img/workshop/xiezilou.jpg" alt="公司写字楼" loading="lazy"></picture>
             <div class="workshop-showcase__caption">公司写字楼</div>
           </div>
           <div class="workshop-showcase__item">
-            <picture><source srcset="../img/workshop/jianyan.webp" type="image/webp"><img src="../img/workshop/jianyan.jpg" alt="质量检验" loading="lazy"></picture>
+            <picture><source srcset="../img/workshop/jianyan-480.webp 480w, ../img/workshop/jianyan-960.webp 960w, ../img/workshop/jianyan-1440.webp 1440w, ../img/workshop/jianyan.webp 1920w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img src="../img/workshop/jianyan.jpg" alt="质量检验" loading="lazy"></picture>
             <div class="workshop-showcase__caption">质量检验</div>
           </div>
           <div class="workshop-showcase__item">
-            <picture><source srcset="../img/workshop/dabao.webp" type="image/webp"><img src="../img/workshop/dabao.jpg" alt="产品打包" loading="lazy"></picture>
+            <picture><source srcset="../img/workshop/dabao-480.webp 480w, ../img/workshop/dabao-960.webp 960w, ../img/workshop/dabao-1440.webp 1440w, ../img/workshop/dabao.webp 1920w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img src="../img/workshop/dabao.jpg" alt="产品打包" loading="lazy"></picture>
             <div class="workshop-showcase__caption">成品包装</div>
           </div>
           <div class="workshop-showcase__item">
-            <picture><source srcset="../img/workshop/chouyang.webp" type="image/webp"><img src="../img/workshop/chouyang.jpg" alt="抽样标准" loading="lazy"></picture>
+            <picture><source srcset="../img/workshop/chouyang-480.webp 480w, ../img/workshop/chouyang-960.webp 960w, ../img/workshop/chouyang-1440.webp 1440w, ../img/workshop/chouyang.webp 1920w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp"><img src="../img/workshop/chouyang.jpg" alt="抽样标准" loading="lazy"></picture>
             <div class="workshop-showcase__caption">抽样检验</div>
           </div>
         </div>

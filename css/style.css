@@ -571,17 +571,17 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../img/hero-home.jpg');
+  background-image: url('../img/hero-home.webp');
   background-size: cover;
   background-position: center 30%;
   pointer-events: none;
 }
 
 /* 内页不同背景 */
-.hero--about::before { background-image: url('../img/hero-about.jpg'); background-position: center 40%; }
-.hero--business::before { background-image: url('../img/hero-business.jpg'); background-position: center 35%; }
-.hero--cases::before { background-image: url('../img/hero-cases.jpg'); background-position: center 30%; }
-.hero--contact::before { background-image: url('../img/hero-contact.jpg'); background-position: center 50%; }
+.hero--about::before { background-image: url('../img/hero-about.webp'); background-position: center 40%; }
+.hero--business::before { background-image: url('../img/hero-business.webp'); background-position: center 35%; }
+.hero--cases::before { background-image: url('../img/hero-cases.webp'); background-position: center 30%; }
+.hero--contact::before { background-image: url('../img/hero-contact.webp'); background-position: center 50%; }
 .hero--contact::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.18) 60%); }
 
 /* 联系页面整体背景 — 团队照片虚化 */
@@ -601,7 +601,7 @@ img {
   position: relative;
   z-index: 1;
 }
-.hero--news::before { background-image: url('../img/hero-news.jpg'); background-position: center 40%; }
+.hero--news::before { background-image: url('../img/hero-news.webp'); background-position: center 40%; }
 
 /* 文字可读性 — 底部渐变叠加（默认） */
 .hero::after {
