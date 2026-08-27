@@ -14,6 +14,7 @@
 - [Best Workplaces 2026](https://inertiapd.cn/en/news-best-workplaces.html): Inertia named 2026 Best Workplaces in Canada — dual-city team, cross-timezone culture, anonymous employee survey recognition.
 - [Suzhou University Lab Visit](https://inertiapd.cn/en/news-suzhou-lab.html): Technical exchange visit to Soochow University Engineering Lab — nanomaterials, welding & joining, research commercialization.
 - [China Pharmaceutical Visit](https://inertiapd.cn/en/news-china-pharma.html): China Pharmaceutical delegation visit — dignified aging, rehabilitation, smart hardware product development and manufacturing.
+- [ISO 13485 Audit](https://inertiapd.cn/en/news-iso-audit.html): Inertia Guangzhou passes its ISO 13485:2016 annual surveillance audit — full compliance across design, manufacturing, and supply chain management.
 
 ### Chinese (中文)
 - [首页](https://inertiapd.cn/zh/index.html): 从概念到量产的全流程产品开发与制造服务。
@@ -25,6 +26,7 @@
 - [最佳工作场所 2026](https://inertiapd.cn/zh/news-best-workplaces.html): Inertia 获评 2026 加拿大最佳工作场所 — 双城团队、跨时区协作、匿名员工评审认可。
 - [苏州大学实验室参访](https://inertiapd.cn/zh/news-suzhou-lab.html): 赴苏州大学工程实验室参观交流 — 纳米材料、焊接与连接、科研成果转化。
 - [中国医药来访](https://inertiapd.cn/zh/news-china-pharma.html): 中国医药代表到访广州易纳 — 有尊严老龄化、康复照护、智能硬件产品开发与制造。
+- [ISO 13485 年度审核](https://inertiapd.cn/zh/news-iso-audit.html): 广州易纳顺利通过 ISO 13485:2016 年度监督审核 — 设计、制造与供应链全流程合规。
 
 ## Key Entities
 - Company: Inertia Guangzhou / 广州易纳科技有限公司

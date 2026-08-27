@@ -114,7 +114,7 @@
         </div>
         <!-- 微信二维码 -->
         <div class="contact-qr">
-          <img src="../img/qr-code.png" alt="微信二维码" width="120" height="120" loading="lazy">
+          <picture><source srcset="../img/qr-code.webp" type="image/webp"><img src="../img/qr-code.png" alt="微信二维码" width="120" height="120" loading="lazy"></picture>
           <span class="contact-qr__label">扫码添加微信</span>
         </div>
       </div>
@@ -145,6 +145,10 @@
               <label class="contact-form__label" for="ctc-msg-zh">留言</label>
               <textarea class="contact-form__textarea" id="ctc-msg-zh" name="message" required></textarea>
             </div>
+          </div>
+          <div class="contact-form__hp" aria-hidden="true">
+            <label for="ctc-website-zh">网站(请留空)</label>
+            <input type="text" id="ctc-website-zh" name="website" tabindex="-1" autocomplete="off">
           </div>
           <button class="contact-form__submit" type="submit">开始对话</button>
         </form>

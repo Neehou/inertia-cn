@@ -154,39 +154,93 @@
   /* ---- ContactForm ---- */
   var contactForms = document.querySelectorAll('.js-contact-form');
   contactForms.forEach(function (form) {
+    var btn = form.querySelector('.contact-form__submit');
+    var origText = btn ? btn.textContent : '';
+    var isZh = (document.documentElement.lang || '').indexOf('zh') === 0;
+
+    function flashError(msg) {
+      if (!btn) return;
+      btn.textContent = msg;
+      btn.style.background = 'var(--color-danger)';
+      btn.style.color = '#fff';
+      setTimeout(function () {
+        btn.textContent = origText;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 2500);
+    }
+
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var btn = form.querySelector('.contact-form__submit');
-      var origText = btn.textContent;
+      if (!btn) return;
+      btn.disabled = true;
+      var reEnable = setTimeout(function () { btn.disabled = false; }, 1500);
+
+      // Honeypot 防垃圾:真实用户看不到该字段,填了即视为机器人,静默丢弃
+      var hp = form.querySelector('input[name="website"]');
+      if (hp && hp.value.trim() !== '') {
+        btn.textContent = isZh ? '✓ 即将打开邮件客户端...' : '✓ Opening your email client...';
+        setTimeout(function () { btn.textContent = origText; }, 2000);
+        return;
+      }
 
       // 收集数据
       var fields = form.querySelectorAll('input, textarea');
       var data = {};
       fields.forEach(function (f) { if (f.name) data[f.name] = f.value.trim(); });
 
+      // 必填校验
       if (!data.name || !data.email || !data.message) {
-        btn.textContent = '请填写必填项';
-        btn.style.background = '#e74c3c';
-        setTimeout(function () { btn.textContent = origText; btn.style.background = ''; }, 2000);
+        clearTimeout(reEnable);
+        btn.disabled = false;
+        flashError(isZh ? '请填写必填项' : 'Please fill in required fields');
         return;
       }
 
-      // 构建邮件内容
-      var subject = encodeURIComponent('网站咨询' + (data.company ? ' - ' + data.company : '') + ' - ' + data.name);
+      // 邮箱格式校验
+      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+      if (!emailRe.test(data.email)) {
+        clearTimeout(reEnable);
+        btn.disabled = false;
+        var emailField = form.querySelector('input[name="email"]');
+        if (emailField) emailField.focus();
+        flashError(isZh ? '请输入有效的邮箱地址' : 'Please enter a valid email address');
+        return;
+      }
+
+      // 电话格式校验(选填)
+      if (data.phone && !/^[0-9+\-\s()]{5,20}$/.test(data.phone)) {
+        clearTimeout(reEnable);
+        btn.disabled = false;
+        flashError(isZh ? '请输入有效的电话号码' : 'Please enter a valid phone number');
+        return;
+      }
+
+      // 构建邮件内容(按语言输出字段标签)
+      var labels = isZh
+        ? { subject: '网站咨询', name: '姓名', email: '邮箱', company: '公司', phone: '电话', msg: '留言', empty: '未填写' }
+        : { subject: 'Website Inquiry', name: 'Name', email: 'Email', company: 'Company', phone: 'Phone', msg: 'Message', empty: 'N/A' };
+
+      var subject = encodeURIComponent(labels.subject + (data.company ? ' - ' + data.company : '') + ' - ' + data.name);
       var body = encodeURIComponent(
-        '姓名: ' + data.name + '\n' +
-        '邮箱: ' + data.email + '\n' +
-        '公司: ' + (data.company || '未填写') + '\n' +
-        '电话: ' + (data.phone || '未填写') + '\n' +
-        '\n留言:\n' + data.message
+        labels.name + ': ' + data.name + '\n' +
+        labels.email + ': ' + data.email + '\n' +
+        labels.company + ': ' + (data.company || labels.empty) + '\n' +
+        labels.phone + ': ' + (data.phone || labels.empty) + '\n' +
+        '\n' + labels.msg + ':\n' + data.message
       );
 
       var mailto = 'mailto:GITSale1@inertiapd.com?subject=' + subject + '&body=' + body;
 
       // 反馈
-      btn.textContent = '✓ 即将打开邮件客户端...';
+      btn.textContent = isZh ? '✓ 即将打开邮件客户端...' : '✓ Opening your email client...';
       btn.style.background = '#27ae60';
-      setTimeout(function () { btn.textContent = origText; btn.style.background = ''; }, 3000);
+      btn.style.color = '#fff';
+      setTimeout(function () {
+        btn.textContent = origText;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 3000);
 
       window.location.href = mailto;
     });

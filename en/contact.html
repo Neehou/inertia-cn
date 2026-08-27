@@ -114,7 +114,7 @@
         </div>
         <!-- WeChat QR -->
         <div class="contact-qr">
-          <img src="../img/qr-code.png" alt="WeChat QR Code" width="120" height="120" loading="lazy">
+          <picture><source srcset="../img/qr-code.webp" type="image/webp"><img src="../img/qr-code.png" alt="WeChat QR Code" width="120" height="120" loading="lazy"></picture>
           <span class="contact-qr__label">Scan for WeChat</span>
         </div>
       </div>
@@ -145,6 +145,10 @@
               <label class="contact-form__label" for="ctc-msg-en">Message</label>
               <textarea class="contact-form__textarea" id="ctc-msg-en" name="message" required></textarea>
             </div>
+          </div>
+          <div class="contact-form__hp" aria-hidden="true">
+            <label for="ctc-website-en">Website (leave blank)</label>
+            <input type="text" id="ctc-website-en" name="website" tabindex="-1" autocomplete="off">
           </div>
           <button class="contact-form__submit" type="submit">Start the Conversation</button>
         </form>
