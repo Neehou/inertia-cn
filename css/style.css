@@ -3903,3 +3903,25 @@ img {
 .lightbox__close:hover {
   background: rgba(255, 255, 255, 0.3);
 }
+/* 文章能力亮点列表 */
+.article-cap-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-lg) 0 0;
+}
+.article-cap-list li {
+  position: relative;
+  padding: var(--space-sm) var(--space-md) var(--space-sm) 2.2em;
+  margin-bottom: var(--space-sm);
+  border-radius: var(--radius-md);
+  background: var(--color-gold-light);
+  border-left: 3px solid var(--color-gold);
+  line-height: 1.7;
+}
+.article-cap-list li::before {
+  content: '✓';
+  position: absolute;
+  left: var(--space-sm);
+  color: var(--color-navy);
+  font-weight: 700;
+}

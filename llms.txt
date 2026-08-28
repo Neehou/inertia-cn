@@ -15,6 +15,10 @@
 - [Suzhou University Lab Visit](https://inertiapd.cn/en/news-suzhou-lab.html): Technical exchange visit to Soochow University Engineering Lab — nanomaterials, welding & joining, research commercialization.
 - [China Pharmaceutical Visit](https://inertiapd.cn/en/news-china-pharma.html): China Pharmaceutical delegation visit — dignified aging, rehabilitation, smart hardware product development and manufacturing.
 - [ISO 13485 Audit](https://inertiapd.cn/en/news-iso-audit.html): Inertia Guangzhou passes its ISO 13485:2016 annual surveillance audit — full compliance across design, manufacturing, and supply chain management.
+- [PlasmaLeap Visit](https://inertiapd.cn/en/news-plasmaleap-visit.html): PlasmaLeap team evaluates Inertia Guangzhou as a China manufacturing partner — products, workshop, quality system, and supply chain for cross-border collaboration.
+- [Mailiao Visit](https://inertiapd.cn/en/news-mailiao-visit.html): Mr. Zheng of Mailiao visits Inertia Guangzhou — technical exchange and long-term manufacturing partnership built on trust.
+- [LAPP Quality Dialogue](https://inertiapd.cn/en/news-lapp-visit.html): Inertia visits German company LAPP — a dialogue on quality manufacturing and international standards.
+- [Cross-border Manufacturing Insights](https://inertiapd.cn/en/news-crossborder-manufacturing.html): In cross-border manufacturing, the most expensive thing is often not equipment — communication, management, compliance, and hidden costs matter.
 
 ### Chinese (中文)
 - [首页](https://inertiapd.cn/zh/index.html): 从概念到量产的全流程产品开发与制造服务。
@@ -27,6 +31,10 @@
 - [苏州大学实验室参访](https://inertiapd.cn/zh/news-suzhou-lab.html): 赴苏州大学工程实验室参观交流 — 纳米材料、焊接与连接、科研成果转化。
 - [中国医药来访](https://inertiapd.cn/zh/news-china-pharma.html): 中国医药代表到访广州易纳 — 有尊严老龄化、康复照护、智能硬件产品开发与制造。
 - [ISO 13485 年度审核](https://inertiapd.cn/zh/news-iso-audit.html): 广州易纳顺利通过 ISO 13485:2016 年度监督审核 — 设计、制造与供应链全流程合规。
+- [PlasmaLeap 考察](https://inertiapd.cn/zh/news-plasmaleap-visit.html): PlasmaLeap 团队考察广州易纳中国制造合作伙伴能力 — 产品、车间、质量体系与供应链,探讨跨国合作。
+- [迈理奥到访](https://inertiapd.cn/zh/news-mailiao-visit.html): 迈理奥郑总到访广州易纳 — 以技术为桥、以信任同行的技术交流与长期制造合作。
+- [LAPP 品质对话](https://inertiapd.cn/zh/news-lapp-visit.html): 走进德国企业 LAPP,对话品质制造 — 国际标准与德国品质基因。
+- [跨国制造洞察](https://inertiapd.cn/zh/news-crossborder-manufacturing.html): 跨国制造项目最贵的往往不是设备 — 沟通、管理、认证与隐性成本才是关键。
 
 ## Key Entities
 - Company: Inertia Guangzhou / 广州易纳科技有限公司
