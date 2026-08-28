@@ -256,4 +256,38 @@
     });
   });
 
+  /* ---- Lightbox:文章/案例图片点击放大 ---- */
+  var lightbox = null;
+  function openLightbox(src, alt) {
+    if (!lightbox) {
+      lightbox = document.createElement('div');
+      lightbox.className = 'lightbox';
+      lightbox.setAttribute('role', 'dialog');
+      lightbox.setAttribute('aria-modal', 'true');
+      lightbox.innerHTML = '<button class="lightbox__close" aria-label="关闭">&times;</button><img class="lightbox__img" alt="">';
+      document.body.appendChild(lightbox);
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox || e.target.classList.contains('lightbox__close')) closeLightbox();
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
+    }
+    var img = lightbox.querySelector('.lightbox__img');
+    img.src = src;
+    img.alt = alt || '';
+    lightbox.classList.add('lightbox--open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    if (lightbox) {
+      lightbox.classList.remove('lightbox--open');
+      document.body.style.overflow = '';
+    }
+  }
+  document.querySelectorAll('.article-img-full, .article-img-grid img, .article-hero-wrap img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      openLightbox(img.currentSrc || img.src, img.alt);
+    });
+    img.style.cursor = 'zoom-in';
+  });
+
 })();

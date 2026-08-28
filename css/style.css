@@ -3859,3 +3859,47 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+/* 图片灯箱 Lightbox — 文章/案例图片点击放大 */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.88);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--duration-normal) var(--ease-out), visibility var(--duration-normal);
+  padding: var(--space-xl);
+  cursor: zoom-out;
+}
+.lightbox--open {
+  opacity: 1;
+  visibility: visible;
+}
+.lightbox__img {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-xl);
+}
+.lightbox__close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-white);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+.lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
