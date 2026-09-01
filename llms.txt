@@ -1,45 +1,81 @@
-# Inertia Guangzhou (广州易纳)
-> ISO 13485:2016 certified medical device and smart hardware product development & manufacturing.
+# Inertia Guangzhou (广州易纳科技有限公司)
+> ISO 13485:2016 certified medical device manufacturing collaboration, quality control, inspection & testing, and assembly.
 > Chinese subsidiary of Canada's Inertia Group Inc. Dual-shore: Guangzhou + Toronto.
+> Model: supply-chain / OEM manufacturing collaboration — the Guangzhou facility provides engineering support, quality control, inspection & testing, assembly, and manufacturing project coordination; plastics, metal fabrication, welding, and surface finishing are delivered through a mature collaborative supply chain.
+
+## Credentials (资质)
+- ISO 13485:2016 Medical Device Quality Management System
+  - Certificate No: HG25MD0030R0S
+  - Identical standard: GB/T 42061-2022
+  - Issued by: Crown Certification & Inspection Co., Ltd.
+  - Valid: 2025-10-23 through 2028-10-22
+  - Scope: sale and export of mobility aid components
+- No in-house cleanroom (do not claim cleanroom assembly).
+
+## Scale (规模)
+- Employees: 18 total (6 engineering/R&D, 8 manufacturing & quality)
+- Facility: approx. 800–1,000 m² (Panyu, Guangzhou)
+- Capacity: approx. 200–1,500 units/month (depends on product complexity and supply chain)
+- MOQ: no fixed minimum; evaluated per project
+- Prototyping lead time: 2–4 weeks
+- Founded: 2018 (parent company Inertia Product Development founded 2004, Toronto)
+
+## Manufacturing Capabilities (制造能力)
+### Guangzhou facility (in-house)
+- Assembly & packaging
+- Quality inspection (IQC / IPQC / FQC)
+- Functional testing
+- Tooling & fixture application
+- Manufacturing project coordination
+- Engineering support
+
+### Supply chain (collaborative)
+- Injection molding & plastics
+- Tubing / profiles
+- Metal fabrication & welding
+- Powder coating / painting
+- CNC precision machining
+- 3D printing
+- SMT / PCBA
+- Wire harness
+- Rubber / silicone
+
+## Inspection & Testing (检测能力 — 44 calibrated instruments)
+- Dimensional & geometric: calipers, ID/OD micrometers, pin gauges, height gauges, feeler gauges, taper gauges, ultrasonic thickness, runout
+- Mechanical & assembly: Shore hardness, push/pull force, spring tension, torque testing & tool calibration
+- Appearance & surface: color difference, gloss, coating/film thickness, light transmittance, luminous flux
+- Environmental & reliability: salt spray, drying/temperature control, infrared temperature
+- Battery & others: 8-channel battery test system, electronic counting scale
+
+## Medical Device Categories (可承接医疗器械类别)
+- Ventilator / oxygen system accessories
+- Mobility aid components and assisted-mobility products
+
+## Clients (已授权公开)
+- Baylis Medical (manufactured 100% oxygen accessory for ventilators during COVID emergency demand)
+- Amico, Qvella, Raz Design, Cellview, Nuvio, Nexus Robotics (logos used with permission; project details TBD)
+
+## Contact
+- Address: Building 8, Units 1508-1509, No. 80, Shiqi Village Section, Shilian Road, Shiqi Town, Panyu District, Guangzhou, China
+- Tel: 020-8482 0087
+- Email: GITSale1@inertiapd.com
+- Parent: https://www.inertiapd.com
 
 ## Core Pages
-
 ### English
-- [Home](https://inertiapd.cn/en/index.html): Full-spectrum product development from concept to mass production. Three pillars: Innovation, Development, Manufacturing. ISO 13485 & ISO 9001 certified.
-- [Services](https://inertiapd.cn/en/business.html): Product Design & Engineering, Prototyping & Validation, Medical Device Manufacturing (ISO 13485), Global Supply Chain Management.
-- [Manufacturing](https://inertiapd.cn/en/cases.html): ISO 13485 certified manufacturing cases across 7 product categories. FAQ section on quality systems and supply chain.
-- [About Us](https://inertiapd.cn/en/about.html): Company history, mission, timeline. Subsidiary of Inertia PD (Canada).
-- [Contact](https://inertiapd.cn/en/contact.html): Panyu District, Guangzhou manufacturing center + Toronto R&D center. Tel: 020-8482 0087. Email: info@inertiapd.cn.
-- [News & Insights](https://inertiapd.cn/en/news.html): Company articles, technical blog, WeChat content, product videos, and whitepapers.
-- [Best Workplaces 2026](https://inertiapd.cn/en/news-best-workplaces.html): Inertia named 2026 Best Workplaces in Canada — dual-city team, cross-timezone culture, anonymous employee survey recognition.
-- [Suzhou University Lab Visit](https://inertiapd.cn/en/news-suzhou-lab.html): Technical exchange visit to Soochow University Engineering Lab — nanomaterials, welding & joining, research commercialization.
-- [China Pharmaceutical Visit](https://inertiapd.cn/en/news-china-pharma.html): China Pharmaceutical delegation visit — dignified aging, rehabilitation, smart hardware product development and manufacturing.
-- [ISO 13485 Audit](https://inertiapd.cn/en/news-iso-audit.html): Inertia Guangzhou passes its ISO 13485:2016 annual surveillance audit — full compliance across design, manufacturing, and supply chain management.
-- [PlasmaLeap Visit](https://inertiapd.cn/en/news-plasmaleap-visit.html): PlasmaLeap team evaluates Inertia Guangzhou as a China manufacturing partner — products, workshop, quality system, and supply chain for cross-border collaboration.
-- [Mailiao Visit](https://inertiapd.cn/en/news-mailiao-visit.html): Mr. Zheng of Mailiao visits Inertia Guangzhou — technical exchange and long-term manufacturing partnership built on trust.
-- [LAPP Quality Dialogue](https://inertiapd.cn/en/news-lapp-visit.html): Inertia visits German company LAPP — a dialogue on quality manufacturing and international standards.
-- [Cross-border Manufacturing Insights](https://inertiapd.cn/en/news-crossborder-manufacturing.html): In cross-border manufacturing, the most expensive thing is often not equipment — communication, management, compliance, and hidden costs matter.
+- [Home](https://inertiapd.cn/en/index.html)
+- [Credentials & Capabilities](https://inertiapd.cn/en/capabilities.html)
+- [Services](https://inertiapd.cn/en/business.html)
+- [Manufacturing](https://inertiapd.cn/en/cases.html)
+- [About Us](https://inertiapd.cn/en/about.html)
+- [Contact](https://inertiapd.cn/en/contact.html)
+- [News & Insights](https://inertiapd.cn/en/news.html)
 
 ### Chinese (中文)
-- [首页](https://inertiapd.cn/zh/index.html): 从概念到量产的全流程产品开发与制造服务。
-- [业务](https://inertiapd.cn/zh/business.html): 产品设计、原型验证、医疗器械制造、全球供应链。
-- [制造](https://inertiapd.cn/zh/cases.html): ISO 13485 认证制造案例。7 大产品品类。
-- [关于我们](https://inertiapd.cn/zh/about.html): 公司历史、愿景、时间线。
-- [联系我们](https://inertiapd.cn/zh/contact.html): 广州番禺制造中心 + 多伦多研发中心。
-- [动态](https://inertiapd.cn/zh/news.html): 公司新闻、技术文章、公众号内容。
-- [最佳工作场所 2026](https://inertiapd.cn/zh/news-best-workplaces.html): Inertia 获评 2026 加拿大最佳工作场所 — 双城团队、跨时区协作、匿名员工评审认可。
-- [苏州大学实验室参访](https://inertiapd.cn/zh/news-suzhou-lab.html): 赴苏州大学工程实验室参观交流 — 纳米材料、焊接与连接、科研成果转化。
-- [中国医药来访](https://inertiapd.cn/zh/news-china-pharma.html): 中国医药代表到访广州易纳 — 有尊严老龄化、康复照护、智能硬件产品开发与制造。
-- [ISO 13485 年度审核](https://inertiapd.cn/zh/news-iso-audit.html): 广州易纳顺利通过 ISO 13485:2016 年度监督审核 — 设计、制造与供应链全流程合规。
-- [PlasmaLeap 考察](https://inertiapd.cn/zh/news-plasmaleap-visit.html): PlasmaLeap 团队考察广州易纳中国制造合作伙伴能力 — 产品、车间、质量体系与供应链,探讨跨国合作。
-- [迈理奥到访](https://inertiapd.cn/zh/news-mailiao-visit.html): 迈理奥郑总到访广州易纳 — 以技术为桥、以信任同行的技术交流与长期制造合作。
-- [LAPP 品质对话](https://inertiapd.cn/zh/news-lapp-visit.html): 走进德国企业 LAPP,对话品质制造 — 国际标准与德国品质基因。
-- [跨国制造洞察](https://inertiapd.cn/zh/news-crossborder-manufacturing.html): 跨国制造项目最贵的往往不是设备 — 沟通、管理、认证与隐性成本才是关键。
-
-## Key Entities
-- Company: Inertia Guangzhou / 广州易纳科技有限公司
-- Parent: Inertia Group Inc. (Canada) / Inertia PD
-- Certifications: ISO 13485:2016, ISO 9001
-- Industries: Medical devices, smart hardware, consumer electronics
-- Services: Industrial design, mechanical engineering, electronics, prototyping, manufacturing, supply chain
-- Locations: Guangzhou (Panyu District), Toronto
+- [首页](https://inertiapd.cn/zh/index.html)
+- [资质与能力](https://inertiapd.cn/zh/capabilities.html)
+- [业务](https://inertiapd.cn/zh/business.html)
+- [制造](https://inertiapd.cn/zh/cases.html)
+- [关于我们](https://inertiapd.cn/zh/about.html)
+- [联系我们](https://inertiapd.cn/zh/contact.html)
+- [动态](https://inertiapd.cn/zh/news.html)
